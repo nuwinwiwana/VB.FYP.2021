@@ -25,6 +25,88 @@ Partial Class newemployee
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label52 = New System.Windows.Forms.Label()
+        Me.Label51 = New System.Windows.Forms.Label()
+        Me.Label50 = New System.Windows.Forms.Label()
+        Me.Label49 = New System.Windows.Forms.Label()
+        Me.Label48 = New System.Windows.Forms.Label()
+        Me.Label47 = New System.Windows.Forms.Label()
+        Me.Label46 = New System.Windows.Forms.Label()
+        Me.Label45 = New System.Windows.Forms.Label()
+        Me.TabControl1 = New System.Windows.Forms.TabControl()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.TertiaryYearEndTB = New System.Windows.Forms.TextBox()
+        Me.SeniorSecondaryYearEndTB = New System.Windows.Forms.TextBox()
+        Me.SecondaryYearEndTB = New System.Windows.Forms.TextBox()
+        Me.Label64 = New System.Windows.Forms.Label()
+        Me.Label63 = New System.Windows.Forms.Label()
+        Me.Label62 = New System.Windows.Forms.Label()
+        Me.Label61 = New System.Windows.Forms.Label()
+        Me.Label60 = New System.Windows.Forms.Label()
+        Me.Label59 = New System.Windows.Forms.Label()
+        Me.TertiarySchoolTB = New System.Windows.Forms.TextBox()
+        Me.SeniorSecondarySchoolTB = New System.Windows.Forms.TextBox()
+        Me.SecondarySchoolTB = New System.Windows.Forms.TextBox()
+        Me.Label58 = New System.Windows.Forms.Label()
+        Me.Label57 = New System.Windows.Forms.Label()
+        Me.Label56 = New System.Windows.Forms.Label()
+        Me.Label55 = New System.Windows.Forms.Label()
+        Me.Label54 = New System.Windows.Forms.Label()
+        Me.Label53 = New System.Windows.Forms.Label()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.DrivingLicenseTB = New System.Windows.Forms.TextBox()
+        Me.PassportTB = New System.Windows.Forms.TextBox()
+        Me.ICTB = New System.Windows.Forms.TextBox()
+        Me.Label70 = New System.Windows.Forms.Label()
+        Me.Label69 = New System.Windows.Forms.Label()
+        Me.Label68 = New System.Windows.Forms.Label()
+        Me.Label67 = New System.Windows.Forms.Label()
+        Me.Label66 = New System.Windows.Forms.Label()
+        Me.Label65 = New System.Windows.Forms.Label()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.InclusiveDate3TB = New System.Windows.Forms.TextBox()
+        Me.InclusiveDate2TB = New System.Windows.Forms.TextBox()
+        Me.Position3TB = New System.Windows.Forms.TextBox()
+        Me.Position2TB = New System.Windows.Forms.TextBox()
+        Me.Company3TB = New System.Windows.Forms.TextBox()
+        Me.Company2TB = New System.Windows.Forms.TextBox()
+        Me.InclusiveDate1TB = New System.Windows.Forms.TextBox()
+        Me.Position1TB = New System.Windows.Forms.TextBox()
+        Me.Company1TB = New System.Windows.Forms.TextBox()
+        Me.Label73 = New System.Windows.Forms.Label()
+        Me.Label72 = New System.Windows.Forms.Label()
+        Me.Label71 = New System.Windows.Forms.Label()
+        Me.Label44 = New System.Windows.Forms.Label()
+        Me.FemaleRBtn = New System.Windows.Forms.RadioButton()
+        Me.MaleRBtn = New System.Windows.Forms.RadioButton()
+        Me.BirthDateDTP = New System.Windows.Forms.DateTimePicker()
+        Me.Label43 = New System.Windows.Forms.Label()
+        Me.Label42 = New System.Windows.Forms.Label()
+        Me.WorkStatusCB = New System.Windows.Forms.ComboBox()
+        Me.CivilStatusCB = New System.Windows.Forms.ComboBox()
+        Me.HiredDateDTP = New System.Windows.Forms.DateTimePicker()
+        Me.MotherAddressTB = New System.Windows.Forms.TextBox()
+        Me.FatherAddressTB = New System.Windows.Forms.TextBox()
+        Me.ReligionTB = New System.Windows.Forms.TextBox()
+        Me.WeightTB = New System.Windows.Forms.TextBox()
+        Me.HeightTB = New System.Windows.Forms.TextBox()
+        Me.AgeTB = New System.Windows.Forms.TextBox()
+        Me.Label41 = New System.Windows.Forms.Label()
+        Me.Label40 = New System.Windows.Forms.Label()
+        Me.SpouseAddressTB = New System.Windows.Forms.TextBox()
+        Me.SpouseNameTB = New System.Windows.Forms.TextBox()
+        Me.PositionTB = New System.Windows.Forms.TextBox()
+        Me.MotherNameTB = New System.Windows.Forms.TextBox()
+        Me.FatherNameTB = New System.Windows.Forms.TextBox()
+        Me.CitizenshipTB = New System.Windows.Forms.TextBox()
+        Me.ContactTB = New System.Windows.Forms.TextBox()
+        Me.AddressTB = New System.Windows.Forms.TextBox()
+        Me.FullNameTB = New System.Windows.Forms.TextBox()
+        Me.EmployeeIDTB = New System.Windows.Forms.TextBox()
+        Me.Label39 = New System.Windows.Forms.Label()
+        Me.Label38 = New System.Windows.Forms.Label()
+        Me.Label37 = New System.Windows.Forms.Label()
+        Me.Label36 = New System.Windows.Forms.Label()
         Me.Label35 = New System.Windows.Forms.Label()
         Me.Label34 = New System.Windows.Forms.Label()
         Me.Label33 = New System.Windows.Forms.Label()
@@ -59,95 +141,20 @@ Partial Class newemployee
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label36 = New System.Windows.Forms.Label()
-        Me.Label37 = New System.Windows.Forms.Label()
-        Me.Label38 = New System.Windows.Forms.Label()
-        Me.Label39 = New System.Windows.Forms.Label()
-        Me.EmployeeIDTB = New System.Windows.Forms.TextBox()
-        Me.FullNameTB = New System.Windows.Forms.TextBox()
-        Me.AddressTB = New System.Windows.Forms.TextBox()
-        Me.ContactTB = New System.Windows.Forms.TextBox()
-        Me.CitizenshipTB = New System.Windows.Forms.TextBox()
-        Me.FatherNameTB = New System.Windows.Forms.TextBox()
-        Me.MotherNameTB = New System.Windows.Forms.TextBox()
-        Me.PositionTB = New System.Windows.Forms.TextBox()
-        Me.SpouseNameTB = New System.Windows.Forms.TextBox()
-        Me.SpouseAddressTB = New System.Windows.Forms.TextBox()
-        Me.Label40 = New System.Windows.Forms.Label()
-        Me.Label41 = New System.Windows.Forms.Label()
-        Me.AgeTB = New System.Windows.Forms.TextBox()
-        Me.HeightTB = New System.Windows.Forms.TextBox()
-        Me.WeightTB = New System.Windows.Forms.TextBox()
-        Me.ReligionTB = New System.Windows.Forms.TextBox()
-        Me.FatherAddressTB = New System.Windows.Forms.TextBox()
-        Me.MotherAddressTB = New System.Windows.Forms.TextBox()
-        Me.HiredDateDTP = New System.Windows.Forms.DateTimePicker()
-        Me.CivilStatusCB = New System.Windows.Forms.ComboBox()
-        Me.WorkStatusCB = New System.Windows.Forms.ComboBox()
-        Me.Label42 = New System.Windows.Forms.Label()
-        Me.Label43 = New System.Windows.Forms.Label()
-        Me.BirthDateDTP = New System.Windows.Forms.DateTimePicker()
-        Me.MaleRBtn = New System.Windows.Forms.RadioButton()
-        Me.FemaleRBtn = New System.Windows.Forms.RadioButton()
-        Me.Label44 = New System.Windows.Forms.Label()
-        Me.TabControl1 = New System.Windows.Forms.TabControl()
-        Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.TabPage3 = New System.Windows.Forms.TabPage()
-        Me.Label45 = New System.Windows.Forms.Label()
-        Me.Label46 = New System.Windows.Forms.Label()
-        Me.Label47 = New System.Windows.Forms.Label()
-        Me.Label48 = New System.Windows.Forms.Label()
-        Me.Label49 = New System.Windows.Forms.Label()
-        Me.Label50 = New System.Windows.Forms.Label()
-        Me.Label51 = New System.Windows.Forms.Label()
-        Me.Label52 = New System.Windows.Forms.Label()
-        Me.Label53 = New System.Windows.Forms.Label()
-        Me.Label54 = New System.Windows.Forms.Label()
-        Me.Label55 = New System.Windows.Forms.Label()
-        Me.Label56 = New System.Windows.Forms.Label()
-        Me.Label57 = New System.Windows.Forms.Label()
-        Me.Label58 = New System.Windows.Forms.Label()
-        Me.SecondarySchoolTB = New System.Windows.Forms.TextBox()
-        Me.SeniorSecondarySchoolTB = New System.Windows.Forms.TextBox()
-        Me.TertiarySchoolTB = New System.Windows.Forms.TextBox()
-        Me.Label59 = New System.Windows.Forms.Label()
-        Me.Label60 = New System.Windows.Forms.Label()
-        Me.Label61 = New System.Windows.Forms.Label()
-        Me.Label62 = New System.Windows.Forms.Label()
-        Me.Label63 = New System.Windows.Forms.Label()
-        Me.Label64 = New System.Windows.Forms.Label()
-        Me.SecondaryYearEndTB = New System.Windows.Forms.TextBox()
-        Me.SeniorSecondaryYearEndTB = New System.Windows.Forms.TextBox()
-        Me.TertiaryYearEndTB = New System.Windows.Forms.TextBox()
-        Me.Label65 = New System.Windows.Forms.Label()
-        Me.Label66 = New System.Windows.Forms.Label()
-        Me.Label67 = New System.Windows.Forms.Label()
-        Me.Label68 = New System.Windows.Forms.Label()
-        Me.Label69 = New System.Windows.Forms.Label()
-        Me.Label70 = New System.Windows.Forms.Label()
-        Me.ICTB = New System.Windows.Forms.TextBox()
-        Me.PassportTB = New System.Windows.Forms.TextBox()
-        Me.DrivingLicenseTB = New System.Windows.Forms.TextBox()
-        Me.Label71 = New System.Windows.Forms.Label()
-        Me.Label72 = New System.Windows.Forms.Label()
-        Me.Label73 = New System.Windows.Forms.Label()
-        Me.Company1TB = New System.Windows.Forms.TextBox()
-        Me.Position1TB = New System.Windows.Forms.TextBox()
-        Me.InclusiveDate1TB = New System.Windows.Forms.TextBox()
-        Me.Company2TB = New System.Windows.Forms.TextBox()
-        Me.Company3TB = New System.Windows.Forms.TextBox()
-        Me.Position2TB = New System.Windows.Forms.TextBox()
-        Me.Position3TB = New System.Windows.Forms.TextBox()
-        Me.InclusiveDate2TB = New System.Windows.Forms.TextBox()
-        Me.InclusiveDate3TB = New System.Windows.Forms.TextBox()
         Me.SaveBtn = New System.Windows.Forms.Button()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.rbdep0 = New System.Windows.Forms.RadioButton()
+        Me.rbdep1 = New System.Windows.Forms.RadioButton()
+        Me.rbdep2 = New System.Windows.Forms.RadioButton()
+        Me.rbdep3 = New System.Windows.Forms.RadioButton()
+        Me.rbdep4 = New System.Windows.Forms.RadioButton()
         Me.Panel1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
         Me.TabPage3.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
@@ -171,6 +178,7 @@ Partial Class newemployee
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.GroupBox2)
         Me.GroupBox1.Controls.Add(Me.Label52)
         Me.GroupBox1.Controls.Add(Me.Label51)
         Me.GroupBox1.Controls.Add(Me.Label50)
@@ -250,6 +258,735 @@ Partial Class newemployee
         Me.GroupBox1.Size = New System.Drawing.Size(1029, 729)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
+        '
+        'Label52
+        '
+        Me.Label52.AutoSize = True
+        Me.Label52.ForeColor = System.Drawing.Color.Red
+        Me.Label52.Location = New System.Drawing.Point(661, 406)
+        Me.Label52.Name = "Label52"
+        Me.Label52.Size = New System.Drawing.Size(13, 17)
+        Me.Label52.TabIndex = 74
+        Me.Label52.Text = "*"
+        '
+        'Label51
+        '
+        Me.Label51.AutoSize = True
+        Me.Label51.ForeColor = System.Drawing.Color.Red
+        Me.Label51.Location = New System.Drawing.Point(105, 444)
+        Me.Label51.Name = "Label51"
+        Me.Label51.Size = New System.Drawing.Size(13, 17)
+        Me.Label51.TabIndex = 73
+        Me.Label51.Text = "*"
+        '
+        'Label50
+        '
+        Me.Label50.AutoSize = True
+        Me.Label50.ForeColor = System.Drawing.Color.Red
+        Me.Label50.Location = New System.Drawing.Point(108, 403)
+        Me.Label50.Name = "Label50"
+        Me.Label50.Size = New System.Drawing.Size(13, 17)
+        Me.Label50.TabIndex = 72
+        Me.Label50.Text = "*"
+        '
+        'Label49
+        '
+        Me.Label49.AutoSize = True
+        Me.Label49.ForeColor = System.Drawing.Color.Red
+        Me.Label49.Location = New System.Drawing.Point(105, 257)
+        Me.Label49.Name = "Label49"
+        Me.Label49.Size = New System.Drawing.Size(13, 17)
+        Me.Label49.TabIndex = 71
+        Me.Label49.Text = "*"
+        '
+        'Label48
+        '
+        Me.Label48.AutoSize = True
+        Me.Label48.ForeColor = System.Drawing.Color.Red
+        Me.Label48.Location = New System.Drawing.Point(105, 211)
+        Me.Label48.Name = "Label48"
+        Me.Label48.Size = New System.Drawing.Size(13, 17)
+        Me.Label48.TabIndex = 70
+        Me.Label48.Text = "*"
+        '
+        'Label47
+        '
+        Me.Label47.AutoSize = True
+        Me.Label47.ForeColor = System.Drawing.Color.Red
+        Me.Label47.Location = New System.Drawing.Point(105, 168)
+        Me.Label47.Name = "Label47"
+        Me.Label47.Size = New System.Drawing.Size(13, 17)
+        Me.Label47.TabIndex = 69
+        Me.Label47.Text = "*"
+        '
+        'Label46
+        '
+        Me.Label46.AutoSize = True
+        Me.Label46.ForeColor = System.Drawing.Color.Red
+        Me.Label46.Location = New System.Drawing.Point(105, 126)
+        Me.Label46.Name = "Label46"
+        Me.Label46.Size = New System.Drawing.Size(13, 17)
+        Me.Label46.TabIndex = 68
+        Me.Label46.Text = "*"
+        '
+        'Label45
+        '
+        Me.Label45.AutoSize = True
+        Me.Label45.ForeColor = System.Drawing.Color.Red
+        Me.Label45.Location = New System.Drawing.Point(105, 79)
+        Me.Label45.Name = "Label45"
+        Me.Label45.Size = New System.Drawing.Size(13, 17)
+        Me.Label45.TabIndex = 67
+        Me.Label45.Text = "*"
+        '
+        'TabControl1
+        '
+        Me.TabControl1.Controls.Add(Me.TabPage1)
+        Me.TabControl1.Controls.Add(Me.TabPage2)
+        Me.TabControl1.Controls.Add(Me.TabPage3)
+        Me.TabControl1.Location = New System.Drawing.Point(21, 562)
+        Me.TabControl1.Name = "TabControl1"
+        Me.TabControl1.SelectedIndex = 0
+        Me.TabControl1.Size = New System.Drawing.Size(993, 161)
+        Me.TabControl1.TabIndex = 66
+        '
+        'TabPage1
+        '
+        Me.TabPage1.Controls.Add(Me.TertiaryYearEndTB)
+        Me.TabPage1.Controls.Add(Me.SeniorSecondaryYearEndTB)
+        Me.TabPage1.Controls.Add(Me.SecondaryYearEndTB)
+        Me.TabPage1.Controls.Add(Me.Label64)
+        Me.TabPage1.Controls.Add(Me.Label63)
+        Me.TabPage1.Controls.Add(Me.Label62)
+        Me.TabPage1.Controls.Add(Me.Label61)
+        Me.TabPage1.Controls.Add(Me.Label60)
+        Me.TabPage1.Controls.Add(Me.Label59)
+        Me.TabPage1.Controls.Add(Me.TertiarySchoolTB)
+        Me.TabPage1.Controls.Add(Me.SeniorSecondarySchoolTB)
+        Me.TabPage1.Controls.Add(Me.SecondarySchoolTB)
+        Me.TabPage1.Controls.Add(Me.Label58)
+        Me.TabPage1.Controls.Add(Me.Label57)
+        Me.TabPage1.Controls.Add(Me.Label56)
+        Me.TabPage1.Controls.Add(Me.Label55)
+        Me.TabPage1.Controls.Add(Me.Label54)
+        Me.TabPage1.Controls.Add(Me.Label53)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage1.Name = "TabPage1"
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage1.Size = New System.Drawing.Size(985, 132)
+        Me.TabPage1.TabIndex = 0
+        Me.TabPage1.Text = "Educational Background"
+        Me.TabPage1.UseVisualStyleBackColor = True
+        '
+        'TertiaryYearEndTB
+        '
+        Me.TertiaryYearEndTB.Location = New System.Drawing.Point(707, 75)
+        Me.TertiaryYearEndTB.Name = "TertiaryYearEndTB"
+        Me.TertiaryYearEndTB.Size = New System.Drawing.Size(257, 22)
+        Me.TertiaryYearEndTB.TabIndex = 89
+        '
+        'SeniorSecondaryYearEndTB
+        '
+        Me.SeniorSecondaryYearEndTB.Location = New System.Drawing.Point(707, 46)
+        Me.SeniorSecondaryYearEndTB.Name = "SeniorSecondaryYearEndTB"
+        Me.SeniorSecondaryYearEndTB.Size = New System.Drawing.Size(257, 22)
+        Me.SeniorSecondaryYearEndTB.TabIndex = 88
+        '
+        'SecondaryYearEndTB
+        '
+        Me.SecondaryYearEndTB.Location = New System.Drawing.Point(707, 14)
+        Me.SecondaryYearEndTB.Name = "SecondaryYearEndTB"
+        Me.SecondaryYearEndTB.Size = New System.Drawing.Size(257, 22)
+        Me.SecondaryYearEndTB.TabIndex = 87
+        '
+        'Label64
+        '
+        Me.Label64.AutoSize = True
+        Me.Label64.Location = New System.Drawing.Point(689, 78)
+        Me.Label64.Name = "Label64"
+        Me.Label64.Size = New System.Drawing.Size(12, 17)
+        Me.Label64.TabIndex = 86
+        Me.Label64.Text = ":"
+        '
+        'Label63
+        '
+        Me.Label63.AutoSize = True
+        Me.Label63.Location = New System.Drawing.Point(689, 49)
+        Me.Label63.Name = "Label63"
+        Me.Label63.Size = New System.Drawing.Size(12, 17)
+        Me.Label63.TabIndex = 85
+        Me.Label63.Text = ":"
+        '
+        'Label62
+        '
+        Me.Label62.AutoSize = True
+        Me.Label62.Location = New System.Drawing.Point(689, 17)
+        Me.Label62.Name = "Label62"
+        Me.Label62.Size = New System.Drawing.Size(12, 17)
+        Me.Label62.TabIndex = 84
+        Me.Label62.Text = ":"
+        '
+        'Label61
+        '
+        Me.Label61.AutoSize = True
+        Me.Label61.Location = New System.Drawing.Point(616, 78)
+        Me.Label61.Name = "Label61"
+        Me.Label61.Size = New System.Drawing.Size(67, 17)
+        Me.Label61.TabIndex = 83
+        Me.Label61.Text = "Year End"
+        '
+        'Label60
+        '
+        Me.Label60.AutoSize = True
+        Me.Label60.Location = New System.Drawing.Point(616, 49)
+        Me.Label60.Name = "Label60"
+        Me.Label60.Size = New System.Drawing.Size(67, 17)
+        Me.Label60.TabIndex = 82
+        Me.Label60.Text = "Year End"
+        '
+        'Label59
+        '
+        Me.Label59.AutoSize = True
+        Me.Label59.Location = New System.Drawing.Point(616, 17)
+        Me.Label59.Name = "Label59"
+        Me.Label59.Size = New System.Drawing.Size(67, 17)
+        Me.Label59.TabIndex = 81
+        Me.Label59.Text = "Year End"
+        '
+        'TertiarySchoolTB
+        '
+        Me.TertiarySchoolTB.Location = New System.Drawing.Point(254, 75)
+        Me.TertiarySchoolTB.Name = "TertiarySchoolTB"
+        Me.TertiarySchoolTB.Size = New System.Drawing.Size(335, 22)
+        Me.TertiarySchoolTB.TabIndex = 80
+        '
+        'SeniorSecondarySchoolTB
+        '
+        Me.SeniorSecondarySchoolTB.Location = New System.Drawing.Point(254, 46)
+        Me.SeniorSecondarySchoolTB.Name = "SeniorSecondarySchoolTB"
+        Me.SeniorSecondarySchoolTB.Size = New System.Drawing.Size(335, 22)
+        Me.SeniorSecondarySchoolTB.TabIndex = 79
+        '
+        'SecondarySchoolTB
+        '
+        Me.SecondarySchoolTB.Location = New System.Drawing.Point(254, 14)
+        Me.SecondarySchoolTB.Name = "SecondarySchoolTB"
+        Me.SecondarySchoolTB.Size = New System.Drawing.Size(335, 22)
+        Me.SecondarySchoolTB.TabIndex = 78
+        '
+        'Label58
+        '
+        Me.Label58.AutoSize = True
+        Me.Label58.Location = New System.Drawing.Point(236, 78)
+        Me.Label58.Name = "Label58"
+        Me.Label58.Size = New System.Drawing.Size(12, 17)
+        Me.Label58.TabIndex = 77
+        Me.Label58.Text = ":"
+        '
+        'Label57
+        '
+        Me.Label57.AutoSize = True
+        Me.Label57.Location = New System.Drawing.Point(236, 17)
+        Me.Label57.Name = "Label57"
+        Me.Label57.Size = New System.Drawing.Size(12, 17)
+        Me.Label57.TabIndex = 76
+        Me.Label57.Text = ":"
+        '
+        'Label56
+        '
+        Me.Label56.AutoSize = True
+        Me.Label56.Location = New System.Drawing.Point(236, 49)
+        Me.Label56.Name = "Label56"
+        Me.Label56.Size = New System.Drawing.Size(12, 17)
+        Me.Label56.TabIndex = 75
+        Me.Label56.Text = ":"
+        '
+        'Label55
+        '
+        Me.Label55.AutoSize = True
+        Me.Label55.Location = New System.Drawing.Point(21, 78)
+        Me.Label55.Name = "Label55"
+        Me.Label55.Size = New System.Drawing.Size(174, 17)
+        Me.Label55.TabIndex = 2
+        Me.Label55.Text = "Tertiary/ Higher Education"
+        '
+        'Label54
+        '
+        Me.Label54.AutoSize = True
+        Me.Label54.Location = New System.Drawing.Point(21, 49)
+        Me.Label54.Name = "Label54"
+        Me.Label54.Size = New System.Drawing.Size(209, 17)
+        Me.Label54.TabIndex = 1
+        Me.Label54.Text = "Senior Secondary/ Matriculation"
+        '
+        'Label53
+        '
+        Me.Label53.AutoSize = True
+        Me.Label53.Location = New System.Drawing.Point(21, 17)
+        Me.Label53.Name = "Label53"
+        Me.Label53.Size = New System.Drawing.Size(160, 17)
+        Me.Label53.TabIndex = 0
+        Me.Label53.Text = "Secondary/ High School"
+        '
+        'TabPage2
+        '
+        Me.TabPage2.Controls.Add(Me.DrivingLicenseTB)
+        Me.TabPage2.Controls.Add(Me.PassportTB)
+        Me.TabPage2.Controls.Add(Me.ICTB)
+        Me.TabPage2.Controls.Add(Me.Label70)
+        Me.TabPage2.Controls.Add(Me.Label69)
+        Me.TabPage2.Controls.Add(Me.Label68)
+        Me.TabPage2.Controls.Add(Me.Label67)
+        Me.TabPage2.Controls.Add(Me.Label66)
+        Me.TabPage2.Controls.Add(Me.Label65)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(985, 132)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "License Record"
+        Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'DrivingLicenseTB
+        '
+        Me.DrivingLicenseTB.Location = New System.Drawing.Point(670, 15)
+        Me.DrivingLicenseTB.Name = "DrivingLicenseTB"
+        Me.DrivingLicenseTB.Size = New System.Drawing.Size(298, 22)
+        Me.DrivingLicenseTB.TabIndex = 80
+        '
+        'PassportTB
+        '
+        Me.PassportTB.Location = New System.Drawing.Point(158, 47)
+        Me.PassportTB.Name = "PassportTB"
+        Me.PassportTB.Size = New System.Drawing.Size(320, 22)
+        Me.PassportTB.TabIndex = 79
+        '
+        'ICTB
+        '
+        Me.ICTB.Location = New System.Drawing.Point(158, 15)
+        Me.ICTB.Name = "ICTB"
+        Me.ICTB.Size = New System.Drawing.Size(320, 22)
+        Me.ICTB.TabIndex = 78
+        '
+        'Label70
+        '
+        Me.Label70.AutoSize = True
+        Me.Label70.Location = New System.Drawing.Point(652, 18)
+        Me.Label70.Name = "Label70"
+        Me.Label70.Size = New System.Drawing.Size(12, 17)
+        Me.Label70.TabIndex = 77
+        Me.Label70.Text = ":"
+        '
+        'Label69
+        '
+        Me.Label69.AutoSize = True
+        Me.Label69.Location = New System.Drawing.Point(140, 50)
+        Me.Label69.Name = "Label69"
+        Me.Label69.Size = New System.Drawing.Size(12, 17)
+        Me.Label69.TabIndex = 76
+        Me.Label69.Text = ":"
+        '
+        'Label68
+        '
+        Me.Label68.AutoSize = True
+        Me.Label68.Location = New System.Drawing.Point(140, 18)
+        Me.Label68.Name = "Label68"
+        Me.Label68.Size = New System.Drawing.Size(12, 17)
+        Me.Label68.TabIndex = 75
+        Me.Label68.Text = ":"
+        '
+        'Label67
+        '
+        Me.Label67.AutoSize = True
+        Me.Label67.Location = New System.Drawing.Point(503, 18)
+        Me.Label67.Name = "Label67"
+        Me.Label67.Size = New System.Drawing.Size(143, 17)
+        Me.Label67.TabIndex = 2
+        Me.Label67.Text = "Driving License Class"
+        '
+        'Label66
+        '
+        Me.Label66.AutoSize = True
+        Me.Label66.Location = New System.Drawing.Point(21, 50)
+        Me.Label66.Name = "Label66"
+        Me.Label66.Size = New System.Drawing.Size(90, 17)
+        Me.Label66.TabIndex = 1
+        Me.Label66.Text = "Passport No."
+        '
+        'Label65
+        '
+        Me.Label65.AutoSize = True
+        Me.Label65.Location = New System.Drawing.Point(21, 18)
+        Me.Label65.Name = "Label65"
+        Me.Label65.Size = New System.Drawing.Size(113, 17)
+        Me.Label65.TabIndex = 0
+        Me.Label65.Text = "Identity Card No."
+        '
+        'TabPage3
+        '
+        Me.TabPage3.Controls.Add(Me.InclusiveDate3TB)
+        Me.TabPage3.Controls.Add(Me.InclusiveDate2TB)
+        Me.TabPage3.Controls.Add(Me.Position3TB)
+        Me.TabPage3.Controls.Add(Me.Position2TB)
+        Me.TabPage3.Controls.Add(Me.Company3TB)
+        Me.TabPage3.Controls.Add(Me.Company2TB)
+        Me.TabPage3.Controls.Add(Me.InclusiveDate1TB)
+        Me.TabPage3.Controls.Add(Me.Position1TB)
+        Me.TabPage3.Controls.Add(Me.Company1TB)
+        Me.TabPage3.Controls.Add(Me.Label73)
+        Me.TabPage3.Controls.Add(Me.Label72)
+        Me.TabPage3.Controls.Add(Me.Label71)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage3.Size = New System.Drawing.Size(985, 132)
+        Me.TabPage3.TabIndex = 2
+        Me.TabPage3.Text = "Work Experience"
+        Me.TabPage3.UseVisualStyleBackColor = True
+        '
+        'InclusiveDate3TB
+        '
+        Me.InclusiveDate3TB.Location = New System.Drawing.Point(830, 88)
+        Me.InclusiveDate3TB.Name = "InclusiveDate3TB"
+        Me.InclusiveDate3TB.Size = New System.Drawing.Size(149, 22)
+        Me.InclusiveDate3TB.TabIndex = 11
+        '
+        'InclusiveDate2TB
+        '
+        Me.InclusiveDate2TB.Location = New System.Drawing.Point(830, 60)
+        Me.InclusiveDate2TB.Name = "InclusiveDate2TB"
+        Me.InclusiveDate2TB.Size = New System.Drawing.Size(149, 22)
+        Me.InclusiveDate2TB.TabIndex = 10
+        '
+        'Position3TB
+        '
+        Me.Position3TB.Location = New System.Drawing.Point(460, 88)
+        Me.Position3TB.Name = "Position3TB"
+        Me.Position3TB.Size = New System.Drawing.Size(364, 22)
+        Me.Position3TB.TabIndex = 9
+        '
+        'Position2TB
+        '
+        Me.Position2TB.Location = New System.Drawing.Point(460, 60)
+        Me.Position2TB.Name = "Position2TB"
+        Me.Position2TB.Size = New System.Drawing.Size(364, 22)
+        Me.Position2TB.TabIndex = 8
+        '
+        'Company3TB
+        '
+        Me.Company3TB.Location = New System.Drawing.Point(26, 88)
+        Me.Company3TB.Name = "Company3TB"
+        Me.Company3TB.Size = New System.Drawing.Size(428, 22)
+        Me.Company3TB.TabIndex = 7
+        '
+        'Company2TB
+        '
+        Me.Company2TB.Location = New System.Drawing.Point(26, 60)
+        Me.Company2TB.Name = "Company2TB"
+        Me.Company2TB.Size = New System.Drawing.Size(428, 22)
+        Me.Company2TB.TabIndex = 6
+        '
+        'InclusiveDate1TB
+        '
+        Me.InclusiveDate1TB.Location = New System.Drawing.Point(830, 32)
+        Me.InclusiveDate1TB.Name = "InclusiveDate1TB"
+        Me.InclusiveDate1TB.Size = New System.Drawing.Size(149, 22)
+        Me.InclusiveDate1TB.TabIndex = 5
+        '
+        'Position1TB
+        '
+        Me.Position1TB.Location = New System.Drawing.Point(460, 32)
+        Me.Position1TB.Name = "Position1TB"
+        Me.Position1TB.Size = New System.Drawing.Size(364, 22)
+        Me.Position1TB.TabIndex = 4
+        '
+        'Company1TB
+        '
+        Me.Company1TB.Location = New System.Drawing.Point(26, 32)
+        Me.Company1TB.Name = "Company1TB"
+        Me.Company1TB.Size = New System.Drawing.Size(428, 22)
+        Me.Company1TB.TabIndex = 3
+        '
+        'Label73
+        '
+        Me.Label73.AutoSize = True
+        Me.Label73.Location = New System.Drawing.Point(827, 12)
+        Me.Label73.Name = "Label73"
+        Me.Label73.Size = New System.Drawing.Size(96, 17)
+        Me.Label73.TabIndex = 2
+        Me.Label73.Text = "Inclusive Date"
+        '
+        'Label72
+        '
+        Me.Label72.AutoSize = True
+        Me.Label72.Location = New System.Drawing.Point(457, 12)
+        Me.Label72.Name = "Label72"
+        Me.Label72.Size = New System.Drawing.Size(58, 17)
+        Me.Label72.TabIndex = 1
+        Me.Label72.Text = "Position"
+        '
+        'Label71
+        '
+        Me.Label71.AutoSize = True
+        Me.Label71.Location = New System.Drawing.Point(23, 12)
+        Me.Label71.Name = "Label71"
+        Me.Label71.Size = New System.Drawing.Size(67, 17)
+        Me.Label71.TabIndex = 0
+        Me.Label71.Text = "Company"
+        '
+        'Label44
+        '
+        Me.Label44.AutoSize = True
+        Me.Label44.ForeColor = System.Drawing.Color.Red
+        Me.Label44.Location = New System.Drawing.Point(105, 34)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(13, 17)
+        Me.Label44.TabIndex = 65
+        Me.Label44.Text = "*"
+        '
+        'FemaleRBtn
+        '
+        Me.FemaleRBtn.AutoSize = True
+        Me.FemaleRBtn.Location = New System.Drawing.Point(254, 119)
+        Me.FemaleRBtn.Name = "FemaleRBtn"
+        Me.FemaleRBtn.Size = New System.Drawing.Size(75, 21)
+        Me.FemaleRBtn.TabIndex = 64
+        Me.FemaleRBtn.TabStop = True
+        Me.FemaleRBtn.Text = "Female"
+        Me.FemaleRBtn.UseVisualStyleBackColor = True
+        '
+        'MaleRBtn
+        '
+        Me.MaleRBtn.AutoSize = True
+        Me.MaleRBtn.Location = New System.Drawing.Point(137, 122)
+        Me.MaleRBtn.Name = "MaleRBtn"
+        Me.MaleRBtn.Size = New System.Drawing.Size(59, 21)
+        Me.MaleRBtn.TabIndex = 63
+        Me.MaleRBtn.TabStop = True
+        Me.MaleRBtn.Text = "Male"
+        Me.MaleRBtn.UseVisualStyleBackColor = True
+        '
+        'BirthDateDTP
+        '
+        Me.BirthDateDTP.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.BirthDateDTP.Location = New System.Drawing.Point(689, 119)
+        Me.BirthDateDTP.Name = "BirthDateDTP"
+        Me.BirthDateDTP.Size = New System.Drawing.Size(174, 22)
+        Me.BirthDateDTP.TabIndex = 62
+        '
+        'Label43
+        '
+        Me.Label43.AutoSize = True
+        Me.Label43.Location = New System.Drawing.Point(671, 124)
+        Me.Label43.Name = "Label43"
+        Me.Label43.Size = New System.Drawing.Size(12, 17)
+        Me.Label43.TabIndex = 61
+        Me.Label43.Text = ":"
+        '
+        'Label42
+        '
+        Me.Label42.AutoSize = True
+        Me.Label42.Location = New System.Drawing.Point(554, 124)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(71, 17)
+        Me.Label42.TabIndex = 60
+        Me.Label42.Text = "Birth Date"
+        '
+        'WorkStatusCB
+        '
+        Me.WorkStatusCB.FormattingEnabled = True
+        Me.WorkStatusCB.Items.AddRange(New Object() {"Active", "Inactive"})
+        Me.WorkStatusCB.Location = New System.Drawing.Point(689, 400)
+        Me.WorkStatusCB.Name = "WorkStatusCB"
+        Me.WorkStatusCB.Size = New System.Drawing.Size(174, 24)
+        Me.WorkStatusCB.TabIndex = 59
+        Me.WorkStatusCB.Text = "Active"
+        '
+        'CivilStatusCB
+        '
+        Me.CivilStatusCB.FormattingEnabled = True
+        Me.CivilStatusCB.Items.AddRange(New Object() {"Single", "Married", "Divorced", "Widowed"})
+        Me.CivilStatusCB.Location = New System.Drawing.Point(137, 486)
+        Me.CivilStatusCB.Name = "CivilStatusCB"
+        Me.CivilStatusCB.Size = New System.Drawing.Size(192, 24)
+        Me.CivilStatusCB.TabIndex = 58
+        Me.CivilStatusCB.Text = "Single"
+        '
+        'HiredDateDTP
+        '
+        Me.HiredDateDTP.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.HiredDateDTP.Location = New System.Drawing.Point(136, 402)
+        Me.HiredDateDTP.Name = "HiredDateDTP"
+        Me.HiredDateDTP.Size = New System.Drawing.Size(193, 22)
+        Me.HiredDateDTP.TabIndex = 57
+        '
+        'MotherAddressTB
+        '
+        Me.MotherAddressTB.Location = New System.Drawing.Point(689, 348)
+        Me.MotherAddressTB.Name = "MotherAddressTB"
+        Me.MotherAddressTB.Size = New System.Drawing.Size(325, 22)
+        Me.MotherAddressTB.TabIndex = 56
+        '
+        'FatherAddressTB
+        '
+        Me.FatherAddressTB.Location = New System.Drawing.Point(689, 300)
+        Me.FatherAddressTB.Name = "FatherAddressTB"
+        Me.FatherAddressTB.Size = New System.Drawing.Size(325, 22)
+        Me.FatherAddressTB.TabIndex = 55
+        '
+        'ReligionTB
+        '
+        Me.ReligionTB.Location = New System.Drawing.Point(689, 254)
+        Me.ReligionTB.Name = "ReligionTB"
+        Me.ReligionTB.Size = New System.Drawing.Size(325, 22)
+        Me.ReligionTB.TabIndex = 54
+        '
+        'WeightTB
+        '
+        Me.WeightTB.Location = New System.Drawing.Point(689, 205)
+        Me.WeightTB.Name = "WeightTB"
+        Me.WeightTB.Size = New System.Drawing.Size(325, 22)
+        Me.WeightTB.TabIndex = 53
+        '
+        'HeightTB
+        '
+        Me.HeightTB.Location = New System.Drawing.Point(689, 163)
+        Me.HeightTB.Name = "HeightTB"
+        Me.HeightTB.Size = New System.Drawing.Size(325, 22)
+        Me.HeightTB.TabIndex = 52
+        '
+        'AgeTB
+        '
+        Me.AgeTB.Location = New System.Drawing.Point(689, 76)
+        Me.AgeTB.Name = "AgeTB"
+        Me.AgeTB.Size = New System.Drawing.Size(325, 22)
+        Me.AgeTB.TabIndex = 51
+        '
+        'Label41
+        '
+        Me.Label41.AutoSize = True
+        Me.Label41.Location = New System.Drawing.Point(118, 525)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(12, 17)
+        Me.Label41.TabIndex = 50
+        Me.Label41.Text = ":"
+        '
+        'Label40
+        '
+        Me.Label40.AutoSize = True
+        Me.Label40.Location = New System.Drawing.Point(671, 525)
+        Me.Label40.Name = "Label40"
+        Me.Label40.Size = New System.Drawing.Size(12, 17)
+        Me.Label40.TabIndex = 49
+        Me.Label40.Text = ":"
+        '
+        'SpouseAddressTB
+        '
+        Me.SpouseAddressTB.Enabled = False
+        Me.SpouseAddressTB.Location = New System.Drawing.Point(689, 522)
+        Me.SpouseAddressTB.Name = "SpouseAddressTB"
+        Me.SpouseAddressTB.Size = New System.Drawing.Size(325, 22)
+        Me.SpouseAddressTB.TabIndex = 48
+        '
+        'SpouseNameTB
+        '
+        Me.SpouseNameTB.Enabled = False
+        Me.SpouseNameTB.Location = New System.Drawing.Point(136, 522)
+        Me.SpouseNameTB.Name = "SpouseNameTB"
+        Me.SpouseNameTB.Size = New System.Drawing.Size(394, 22)
+        Me.SpouseNameTB.TabIndex = 47
+        '
+        'PositionTB
+        '
+        Me.PositionTB.Location = New System.Drawing.Point(136, 441)
+        Me.PositionTB.Name = "PositionTB"
+        Me.PositionTB.Size = New System.Drawing.Size(394, 22)
+        Me.PositionTB.TabIndex = 46
+        '
+        'MotherNameTB
+        '
+        Me.MotherNameTB.Location = New System.Drawing.Point(136, 348)
+        Me.MotherNameTB.Name = "MotherNameTB"
+        Me.MotherNameTB.Size = New System.Drawing.Size(394, 22)
+        Me.MotherNameTB.TabIndex = 44
+        '
+        'FatherNameTB
+        '
+        Me.FatherNameTB.Location = New System.Drawing.Point(136, 300)
+        Me.FatherNameTB.Name = "FatherNameTB"
+        Me.FatherNameTB.Size = New System.Drawing.Size(394, 22)
+        Me.FatherNameTB.TabIndex = 43
+        '
+        'CitizenshipTB
+        '
+        Me.CitizenshipTB.Location = New System.Drawing.Point(136, 254)
+        Me.CitizenshipTB.Name = "CitizenshipTB"
+        Me.CitizenshipTB.Size = New System.Drawing.Size(394, 22)
+        Me.CitizenshipTB.TabIndex = 42
+        '
+        'ContactTB
+        '
+        Me.ContactTB.Location = New System.Drawing.Point(136, 208)
+        Me.ContactTB.Name = "ContactTB"
+        Me.ContactTB.Size = New System.Drawing.Size(394, 22)
+        Me.ContactTB.TabIndex = 41
+        '
+        'AddressTB
+        '
+        Me.AddressTB.Location = New System.Drawing.Point(136, 165)
+        Me.AddressTB.Name = "AddressTB"
+        Me.AddressTB.Size = New System.Drawing.Size(394, 22)
+        Me.AddressTB.TabIndex = 40
+        '
+        'FullNameTB
+        '
+        Me.FullNameTB.Location = New System.Drawing.Point(136, 76)
+        Me.FullNameTB.Name = "FullNameTB"
+        Me.FullNameTB.Size = New System.Drawing.Size(394, 22)
+        Me.FullNameTB.TabIndex = 39
+        '
+        'EmployeeIDTB
+        '
+        Me.EmployeeIDTB.Location = New System.Drawing.Point(136, 31)
+        Me.EmployeeIDTB.Name = "EmployeeIDTB"
+        Me.EmployeeIDTB.Size = New System.Drawing.Size(394, 22)
+        Me.EmployeeIDTB.TabIndex = 38
+        '
+        'Label39
+        '
+        Me.Label39.AutoSize = True
+        Me.Label39.Location = New System.Drawing.Point(671, 79)
+        Me.Label39.Name = "Label39"
+        Me.Label39.Size = New System.Drawing.Size(12, 17)
+        Me.Label39.TabIndex = 37
+        Me.Label39.Text = ":"
+        '
+        'Label38
+        '
+        Me.Label38.AutoSize = True
+        Me.Label38.Location = New System.Drawing.Point(671, 166)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New System.Drawing.Size(12, 17)
+        Me.Label38.TabIndex = 36
+        Me.Label38.Text = ":"
+        '
+        'Label37
+        '
+        Me.Label37.AutoSize = True
+        Me.Label37.Location = New System.Drawing.Point(671, 210)
+        Me.Label37.Name = "Label37"
+        Me.Label37.Size = New System.Drawing.Size(12, 17)
+        Me.Label37.TabIndex = 35
+        Me.Label37.Text = ":"
+        '
+        'Label36
+        '
+        Me.Label36.AutoSize = True
+        Me.Label36.Location = New System.Drawing.Point(671, 406)
+        Me.Label36.Name = "Label36"
+        Me.Label36.Size = New System.Drawing.Size(12, 17)
+        Me.Label36.TabIndex = 34
+        Me.Label36.Text = ":"
         '
         'Label35
         '
@@ -557,733 +1294,6 @@ Partial Class newemployee
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Employee ID"
         '
-        'Label36
-        '
-        Me.Label36.AutoSize = True
-        Me.Label36.Location = New System.Drawing.Point(671, 406)
-        Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(12, 17)
-        Me.Label36.TabIndex = 34
-        Me.Label36.Text = ":"
-        '
-        'Label37
-        '
-        Me.Label37.AutoSize = True
-        Me.Label37.Location = New System.Drawing.Point(671, 210)
-        Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(12, 17)
-        Me.Label37.TabIndex = 35
-        Me.Label37.Text = ":"
-        '
-        'Label38
-        '
-        Me.Label38.AutoSize = True
-        Me.Label38.Location = New System.Drawing.Point(671, 166)
-        Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(12, 17)
-        Me.Label38.TabIndex = 36
-        Me.Label38.Text = ":"
-        '
-        'Label39
-        '
-        Me.Label39.AutoSize = True
-        Me.Label39.Location = New System.Drawing.Point(671, 79)
-        Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(12, 17)
-        Me.Label39.TabIndex = 37
-        Me.Label39.Text = ":"
-        '
-        'EmployeeIDTB
-        '
-        Me.EmployeeIDTB.Location = New System.Drawing.Point(136, 31)
-        Me.EmployeeIDTB.Name = "EmployeeIDTB"
-        Me.EmployeeIDTB.Size = New System.Drawing.Size(394, 22)
-        Me.EmployeeIDTB.TabIndex = 38
-        '
-        'FullNameTB
-        '
-        Me.FullNameTB.Location = New System.Drawing.Point(136, 76)
-        Me.FullNameTB.Name = "FullNameTB"
-        Me.FullNameTB.Size = New System.Drawing.Size(394, 22)
-        Me.FullNameTB.TabIndex = 39
-        '
-        'AddressTB
-        '
-        Me.AddressTB.Location = New System.Drawing.Point(136, 165)
-        Me.AddressTB.Name = "AddressTB"
-        Me.AddressTB.Size = New System.Drawing.Size(394, 22)
-        Me.AddressTB.TabIndex = 40
-        '
-        'ContactTB
-        '
-        Me.ContactTB.Location = New System.Drawing.Point(136, 208)
-        Me.ContactTB.Name = "ContactTB"
-        Me.ContactTB.Size = New System.Drawing.Size(394, 22)
-        Me.ContactTB.TabIndex = 41
-        '
-        'CitizenshipTB
-        '
-        Me.CitizenshipTB.Location = New System.Drawing.Point(136, 254)
-        Me.CitizenshipTB.Name = "CitizenshipTB"
-        Me.CitizenshipTB.Size = New System.Drawing.Size(394, 22)
-        Me.CitizenshipTB.TabIndex = 42
-        '
-        'FatherNameTB
-        '
-        Me.FatherNameTB.Location = New System.Drawing.Point(136, 300)
-        Me.FatherNameTB.Name = "FatherNameTB"
-        Me.FatherNameTB.Size = New System.Drawing.Size(394, 22)
-        Me.FatherNameTB.TabIndex = 43
-        '
-        'MotherNameTB
-        '
-        Me.MotherNameTB.Location = New System.Drawing.Point(136, 348)
-        Me.MotherNameTB.Name = "MotherNameTB"
-        Me.MotherNameTB.Size = New System.Drawing.Size(394, 22)
-        Me.MotherNameTB.TabIndex = 44
-        '
-        'PositionTB
-        '
-        Me.PositionTB.Location = New System.Drawing.Point(136, 441)
-        Me.PositionTB.Name = "PositionTB"
-        Me.PositionTB.Size = New System.Drawing.Size(394, 22)
-        Me.PositionTB.TabIndex = 46
-        '
-        'SpouseNameTB
-        '
-        Me.SpouseNameTB.Location = New System.Drawing.Point(136, 522)
-        Me.SpouseNameTB.Name = "SpouseNameTB"
-        Me.SpouseNameTB.Size = New System.Drawing.Size(394, 22)
-        Me.SpouseNameTB.TabIndex = 47
-        '
-        'SpouseAddressTB
-        '
-        Me.SpouseAddressTB.Location = New System.Drawing.Point(689, 522)
-        Me.SpouseAddressTB.Name = "SpouseAddressTB"
-        Me.SpouseAddressTB.Size = New System.Drawing.Size(325, 22)
-        Me.SpouseAddressTB.TabIndex = 48
-        '
-        'Label40
-        '
-        Me.Label40.AutoSize = True
-        Me.Label40.Location = New System.Drawing.Point(671, 525)
-        Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(12, 17)
-        Me.Label40.TabIndex = 49
-        Me.Label40.Text = ":"
-        '
-        'Label41
-        '
-        Me.Label41.AutoSize = True
-        Me.Label41.Location = New System.Drawing.Point(118, 525)
-        Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(12, 17)
-        Me.Label41.TabIndex = 50
-        Me.Label41.Text = ":"
-        '
-        'AgeTB
-        '
-        Me.AgeTB.Location = New System.Drawing.Point(689, 76)
-        Me.AgeTB.Name = "AgeTB"
-        Me.AgeTB.Size = New System.Drawing.Size(325, 22)
-        Me.AgeTB.TabIndex = 51
-        '
-        'HeightTB
-        '
-        Me.HeightTB.Location = New System.Drawing.Point(689, 163)
-        Me.HeightTB.Name = "HeightTB"
-        Me.HeightTB.Size = New System.Drawing.Size(325, 22)
-        Me.HeightTB.TabIndex = 52
-        '
-        'WeightTB
-        '
-        Me.WeightTB.Location = New System.Drawing.Point(689, 205)
-        Me.WeightTB.Name = "WeightTB"
-        Me.WeightTB.Size = New System.Drawing.Size(325, 22)
-        Me.WeightTB.TabIndex = 53
-        '
-        'ReligionTB
-        '
-        Me.ReligionTB.Location = New System.Drawing.Point(689, 254)
-        Me.ReligionTB.Name = "ReligionTB"
-        Me.ReligionTB.Size = New System.Drawing.Size(325, 22)
-        Me.ReligionTB.TabIndex = 54
-        '
-        'FatherAddressTB
-        '
-        Me.FatherAddressTB.Location = New System.Drawing.Point(689, 300)
-        Me.FatherAddressTB.Name = "FatherAddressTB"
-        Me.FatherAddressTB.Size = New System.Drawing.Size(325, 22)
-        Me.FatherAddressTB.TabIndex = 55
-        '
-        'MotherAddressTB
-        '
-        Me.MotherAddressTB.Location = New System.Drawing.Point(689, 348)
-        Me.MotherAddressTB.Name = "MotherAddressTB"
-        Me.MotherAddressTB.Size = New System.Drawing.Size(325, 22)
-        Me.MotherAddressTB.TabIndex = 56
-        '
-        'HiredDateDTP
-        '
-        Me.HiredDateDTP.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.HiredDateDTP.Location = New System.Drawing.Point(136, 402)
-        Me.HiredDateDTP.Name = "HiredDateDTP"
-        Me.HiredDateDTP.Size = New System.Drawing.Size(193, 22)
-        Me.HiredDateDTP.TabIndex = 57
-        '
-        'CivilStatusCB
-        '
-        Me.CivilStatusCB.FormattingEnabled = True
-        Me.CivilStatusCB.Items.AddRange(New Object() {"Single", "Married", "Divorced", "Widowed"})
-        Me.CivilStatusCB.Location = New System.Drawing.Point(137, 486)
-        Me.CivilStatusCB.Name = "CivilStatusCB"
-        Me.CivilStatusCB.Size = New System.Drawing.Size(192, 24)
-        Me.CivilStatusCB.TabIndex = 58
-        Me.CivilStatusCB.Text = "Single"
-        '
-        'WorkStatusCB
-        '
-        Me.WorkStatusCB.FormattingEnabled = True
-        Me.WorkStatusCB.Items.AddRange(New Object() {"Active", "Inactive"})
-        Me.WorkStatusCB.Location = New System.Drawing.Point(689, 400)
-        Me.WorkStatusCB.Name = "WorkStatusCB"
-        Me.WorkStatusCB.Size = New System.Drawing.Size(174, 24)
-        Me.WorkStatusCB.TabIndex = 59
-        Me.WorkStatusCB.Text = "Active"
-        '
-        'Label42
-        '
-        Me.Label42.AutoSize = True
-        Me.Label42.Location = New System.Drawing.Point(554, 124)
-        Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(71, 17)
-        Me.Label42.TabIndex = 60
-        Me.Label42.Text = "Birth Date"
-        '
-        'Label43
-        '
-        Me.Label43.AutoSize = True
-        Me.Label43.Location = New System.Drawing.Point(671, 124)
-        Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(12, 17)
-        Me.Label43.TabIndex = 61
-        Me.Label43.Text = ":"
-        '
-        'BirthDateDTP
-        '
-        Me.BirthDateDTP.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.BirthDateDTP.Location = New System.Drawing.Point(689, 119)
-        Me.BirthDateDTP.Name = "BirthDateDTP"
-        Me.BirthDateDTP.Size = New System.Drawing.Size(174, 22)
-        Me.BirthDateDTP.TabIndex = 62
-        '
-        'MaleRBtn
-        '
-        Me.MaleRBtn.AutoSize = True
-        Me.MaleRBtn.Location = New System.Drawing.Point(137, 122)
-        Me.MaleRBtn.Name = "MaleRBtn"
-        Me.MaleRBtn.Size = New System.Drawing.Size(59, 21)
-        Me.MaleRBtn.TabIndex = 63
-        Me.MaleRBtn.TabStop = True
-        Me.MaleRBtn.Text = "Male"
-        Me.MaleRBtn.UseVisualStyleBackColor = True
-        '
-        'FemaleRBtn
-        '
-        Me.FemaleRBtn.AutoSize = True
-        Me.FemaleRBtn.Location = New System.Drawing.Point(254, 119)
-        Me.FemaleRBtn.Name = "FemaleRBtn"
-        Me.FemaleRBtn.Size = New System.Drawing.Size(75, 21)
-        Me.FemaleRBtn.TabIndex = 64
-        Me.FemaleRBtn.TabStop = True
-        Me.FemaleRBtn.Text = "Female"
-        Me.FemaleRBtn.UseVisualStyleBackColor = True
-        '
-        'Label44
-        '
-        Me.Label44.AutoSize = True
-        Me.Label44.ForeColor = System.Drawing.Color.Red
-        Me.Label44.Location = New System.Drawing.Point(105, 34)
-        Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(13, 17)
-        Me.Label44.TabIndex = 65
-        Me.Label44.Text = "*"
-        '
-        'TabControl1
-        '
-        Me.TabControl1.Controls.Add(Me.TabPage1)
-        Me.TabControl1.Controls.Add(Me.TabPage2)
-        Me.TabControl1.Controls.Add(Me.TabPage3)
-        Me.TabControl1.Location = New System.Drawing.Point(21, 562)
-        Me.TabControl1.Name = "TabControl1"
-        Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(993, 161)
-        Me.TabControl1.TabIndex = 66
-        '
-        'TabPage1
-        '
-        Me.TabPage1.Controls.Add(Me.TertiaryYearEndTB)
-        Me.TabPage1.Controls.Add(Me.SeniorSecondaryYearEndTB)
-        Me.TabPage1.Controls.Add(Me.SecondaryYearEndTB)
-        Me.TabPage1.Controls.Add(Me.Label64)
-        Me.TabPage1.Controls.Add(Me.Label63)
-        Me.TabPage1.Controls.Add(Me.Label62)
-        Me.TabPage1.Controls.Add(Me.Label61)
-        Me.TabPage1.Controls.Add(Me.Label60)
-        Me.TabPage1.Controls.Add(Me.Label59)
-        Me.TabPage1.Controls.Add(Me.TertiarySchoolTB)
-        Me.TabPage1.Controls.Add(Me.SeniorSecondarySchoolTB)
-        Me.TabPage1.Controls.Add(Me.SecondarySchoolTB)
-        Me.TabPage1.Controls.Add(Me.Label58)
-        Me.TabPage1.Controls.Add(Me.Label57)
-        Me.TabPage1.Controls.Add(Me.Label56)
-        Me.TabPage1.Controls.Add(Me.Label55)
-        Me.TabPage1.Controls.Add(Me.Label54)
-        Me.TabPage1.Controls.Add(Me.Label53)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(985, 132)
-        Me.TabPage1.TabIndex = 0
-        Me.TabPage1.Text = "Educational Background"
-        Me.TabPage1.UseVisualStyleBackColor = True
-        '
-        'TabPage2
-        '
-        Me.TabPage2.Controls.Add(Me.DrivingLicenseTB)
-        Me.TabPage2.Controls.Add(Me.PassportTB)
-        Me.TabPage2.Controls.Add(Me.ICTB)
-        Me.TabPage2.Controls.Add(Me.Label70)
-        Me.TabPage2.Controls.Add(Me.Label69)
-        Me.TabPage2.Controls.Add(Me.Label68)
-        Me.TabPage2.Controls.Add(Me.Label67)
-        Me.TabPage2.Controls.Add(Me.Label66)
-        Me.TabPage2.Controls.Add(Me.Label65)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(985, 132)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "License Record"
-        Me.TabPage2.UseVisualStyleBackColor = True
-        '
-        'TabPage3
-        '
-        Me.TabPage3.Controls.Add(Me.InclusiveDate3TB)
-        Me.TabPage3.Controls.Add(Me.InclusiveDate2TB)
-        Me.TabPage3.Controls.Add(Me.Position3TB)
-        Me.TabPage3.Controls.Add(Me.Position2TB)
-        Me.TabPage3.Controls.Add(Me.Company3TB)
-        Me.TabPage3.Controls.Add(Me.Company2TB)
-        Me.TabPage3.Controls.Add(Me.InclusiveDate1TB)
-        Me.TabPage3.Controls.Add(Me.Position1TB)
-        Me.TabPage3.Controls.Add(Me.Company1TB)
-        Me.TabPage3.Controls.Add(Me.Label73)
-        Me.TabPage3.Controls.Add(Me.Label72)
-        Me.TabPage3.Controls.Add(Me.Label71)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage3.Size = New System.Drawing.Size(985, 132)
-        Me.TabPage3.TabIndex = 2
-        Me.TabPage3.Text = "Work Experience"
-        Me.TabPage3.UseVisualStyleBackColor = True
-        '
-        'Label45
-        '
-        Me.Label45.AutoSize = True
-        Me.Label45.ForeColor = System.Drawing.Color.Red
-        Me.Label45.Location = New System.Drawing.Point(105, 79)
-        Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(13, 17)
-        Me.Label45.TabIndex = 67
-        Me.Label45.Text = "*"
-        '
-        'Label46
-        '
-        Me.Label46.AutoSize = True
-        Me.Label46.ForeColor = System.Drawing.Color.Red
-        Me.Label46.Location = New System.Drawing.Point(105, 126)
-        Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(13, 17)
-        Me.Label46.TabIndex = 68
-        Me.Label46.Text = "*"
-        '
-        'Label47
-        '
-        Me.Label47.AutoSize = True
-        Me.Label47.ForeColor = System.Drawing.Color.Red
-        Me.Label47.Location = New System.Drawing.Point(105, 168)
-        Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(13, 17)
-        Me.Label47.TabIndex = 69
-        Me.Label47.Text = "*"
-        '
-        'Label48
-        '
-        Me.Label48.AutoSize = True
-        Me.Label48.ForeColor = System.Drawing.Color.Red
-        Me.Label48.Location = New System.Drawing.Point(105, 211)
-        Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(13, 17)
-        Me.Label48.TabIndex = 70
-        Me.Label48.Text = "*"
-        '
-        'Label49
-        '
-        Me.Label49.AutoSize = True
-        Me.Label49.ForeColor = System.Drawing.Color.Red
-        Me.Label49.Location = New System.Drawing.Point(105, 257)
-        Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(13, 17)
-        Me.Label49.TabIndex = 71
-        Me.Label49.Text = "*"
-        '
-        'Label50
-        '
-        Me.Label50.AutoSize = True
-        Me.Label50.ForeColor = System.Drawing.Color.Red
-        Me.Label50.Location = New System.Drawing.Point(108, 403)
-        Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(13, 17)
-        Me.Label50.TabIndex = 72
-        Me.Label50.Text = "*"
-        '
-        'Label51
-        '
-        Me.Label51.AutoSize = True
-        Me.Label51.ForeColor = System.Drawing.Color.Red
-        Me.Label51.Location = New System.Drawing.Point(105, 444)
-        Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(13, 17)
-        Me.Label51.TabIndex = 73
-        Me.Label51.Text = "*"
-        '
-        'Label52
-        '
-        Me.Label52.AutoSize = True
-        Me.Label52.ForeColor = System.Drawing.Color.Red
-        Me.Label52.Location = New System.Drawing.Point(661, 406)
-        Me.Label52.Name = "Label52"
-        Me.Label52.Size = New System.Drawing.Size(13, 17)
-        Me.Label52.TabIndex = 74
-        Me.Label52.Text = "*"
-        '
-        'Label53
-        '
-        Me.Label53.AutoSize = True
-        Me.Label53.Location = New System.Drawing.Point(21, 17)
-        Me.Label53.Name = "Label53"
-        Me.Label53.Size = New System.Drawing.Size(160, 17)
-        Me.Label53.TabIndex = 0
-        Me.Label53.Text = "Secondary/ High School"
-        '
-        'Label54
-        '
-        Me.Label54.AutoSize = True
-        Me.Label54.Location = New System.Drawing.Point(21, 49)
-        Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(209, 17)
-        Me.Label54.TabIndex = 1
-        Me.Label54.Text = "Senior Secondary/ Matriculation"
-        '
-        'Label55
-        '
-        Me.Label55.AutoSize = True
-        Me.Label55.Location = New System.Drawing.Point(21, 78)
-        Me.Label55.Name = "Label55"
-        Me.Label55.Size = New System.Drawing.Size(174, 17)
-        Me.Label55.TabIndex = 2
-        Me.Label55.Text = "Tertiary/ Higher Education"
-        '
-        'Label56
-        '
-        Me.Label56.AutoSize = True
-        Me.Label56.Location = New System.Drawing.Point(236, 49)
-        Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(12, 17)
-        Me.Label56.TabIndex = 75
-        Me.Label56.Text = ":"
-        '
-        'Label57
-        '
-        Me.Label57.AutoSize = True
-        Me.Label57.Location = New System.Drawing.Point(236, 17)
-        Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(12, 17)
-        Me.Label57.TabIndex = 76
-        Me.Label57.Text = ":"
-        '
-        'Label58
-        '
-        Me.Label58.AutoSize = True
-        Me.Label58.Location = New System.Drawing.Point(236, 78)
-        Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(12, 17)
-        Me.Label58.TabIndex = 77
-        Me.Label58.Text = ":"
-        '
-        'SecondarySchoolTB
-        '
-        Me.SecondarySchoolTB.Location = New System.Drawing.Point(254, 14)
-        Me.SecondarySchoolTB.Name = "SecondarySchoolTB"
-        Me.SecondarySchoolTB.Size = New System.Drawing.Size(335, 22)
-        Me.SecondarySchoolTB.TabIndex = 78
-        '
-        'SeniorSecondarySchoolTB
-        '
-        Me.SeniorSecondarySchoolTB.Location = New System.Drawing.Point(254, 46)
-        Me.SeniorSecondarySchoolTB.Name = "SeniorSecondarySchoolTB"
-        Me.SeniorSecondarySchoolTB.Size = New System.Drawing.Size(335, 22)
-        Me.SeniorSecondarySchoolTB.TabIndex = 79
-        '
-        'TertiarySchoolTB
-        '
-        Me.TertiarySchoolTB.Location = New System.Drawing.Point(254, 75)
-        Me.TertiarySchoolTB.Name = "TertiarySchoolTB"
-        Me.TertiarySchoolTB.Size = New System.Drawing.Size(335, 22)
-        Me.TertiarySchoolTB.TabIndex = 80
-        '
-        'Label59
-        '
-        Me.Label59.AutoSize = True
-        Me.Label59.Location = New System.Drawing.Point(616, 17)
-        Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(67, 17)
-        Me.Label59.TabIndex = 81
-        Me.Label59.Text = "Year End"
-        '
-        'Label60
-        '
-        Me.Label60.AutoSize = True
-        Me.Label60.Location = New System.Drawing.Point(616, 49)
-        Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(67, 17)
-        Me.Label60.TabIndex = 82
-        Me.Label60.Text = "Year End"
-        '
-        'Label61
-        '
-        Me.Label61.AutoSize = True
-        Me.Label61.Location = New System.Drawing.Point(616, 78)
-        Me.Label61.Name = "Label61"
-        Me.Label61.Size = New System.Drawing.Size(67, 17)
-        Me.Label61.TabIndex = 83
-        Me.Label61.Text = "Year End"
-        '
-        'Label62
-        '
-        Me.Label62.AutoSize = True
-        Me.Label62.Location = New System.Drawing.Point(689, 17)
-        Me.Label62.Name = "Label62"
-        Me.Label62.Size = New System.Drawing.Size(12, 17)
-        Me.Label62.TabIndex = 84
-        Me.Label62.Text = ":"
-        '
-        'Label63
-        '
-        Me.Label63.AutoSize = True
-        Me.Label63.Location = New System.Drawing.Point(689, 49)
-        Me.Label63.Name = "Label63"
-        Me.Label63.Size = New System.Drawing.Size(12, 17)
-        Me.Label63.TabIndex = 85
-        Me.Label63.Text = ":"
-        '
-        'Label64
-        '
-        Me.Label64.AutoSize = True
-        Me.Label64.Location = New System.Drawing.Point(689, 78)
-        Me.Label64.Name = "Label64"
-        Me.Label64.Size = New System.Drawing.Size(12, 17)
-        Me.Label64.TabIndex = 86
-        Me.Label64.Text = ":"
-        '
-        'SecondaryYearEndTB
-        '
-        Me.SecondaryYearEndTB.Location = New System.Drawing.Point(707, 14)
-        Me.SecondaryYearEndTB.Name = "SecondaryYearEndTB"
-        Me.SecondaryYearEndTB.Size = New System.Drawing.Size(257, 22)
-        Me.SecondaryYearEndTB.TabIndex = 87
-        '
-        'SeniorSecondaryYearEndTB
-        '
-        Me.SeniorSecondaryYearEndTB.Location = New System.Drawing.Point(707, 46)
-        Me.SeniorSecondaryYearEndTB.Name = "SeniorSecondaryYearEndTB"
-        Me.SeniorSecondaryYearEndTB.Size = New System.Drawing.Size(257, 22)
-        Me.SeniorSecondaryYearEndTB.TabIndex = 88
-        '
-        'TertiaryYearEndTB
-        '
-        Me.TertiaryYearEndTB.Location = New System.Drawing.Point(707, 75)
-        Me.TertiaryYearEndTB.Name = "TertiaryYearEndTB"
-        Me.TertiaryYearEndTB.Size = New System.Drawing.Size(257, 22)
-        Me.TertiaryYearEndTB.TabIndex = 89
-        '
-        'Label65
-        '
-        Me.Label65.AutoSize = True
-        Me.Label65.Location = New System.Drawing.Point(21, 18)
-        Me.Label65.Name = "Label65"
-        Me.Label65.Size = New System.Drawing.Size(113, 17)
-        Me.Label65.TabIndex = 0
-        Me.Label65.Text = "Identity Card No."
-        '
-        'Label66
-        '
-        Me.Label66.AutoSize = True
-        Me.Label66.Location = New System.Drawing.Point(21, 50)
-        Me.Label66.Name = "Label66"
-        Me.Label66.Size = New System.Drawing.Size(90, 17)
-        Me.Label66.TabIndex = 1
-        Me.Label66.Text = "Passport No."
-        '
-        'Label67
-        '
-        Me.Label67.AutoSize = True
-        Me.Label67.Location = New System.Drawing.Point(503, 18)
-        Me.Label67.Name = "Label67"
-        Me.Label67.Size = New System.Drawing.Size(143, 17)
-        Me.Label67.TabIndex = 2
-        Me.Label67.Text = "Driving License Class"
-        '
-        'Label68
-        '
-        Me.Label68.AutoSize = True
-        Me.Label68.Location = New System.Drawing.Point(140, 18)
-        Me.Label68.Name = "Label68"
-        Me.Label68.Size = New System.Drawing.Size(12, 17)
-        Me.Label68.TabIndex = 75
-        Me.Label68.Text = ":"
-        '
-        'Label69
-        '
-        Me.Label69.AutoSize = True
-        Me.Label69.Location = New System.Drawing.Point(140, 50)
-        Me.Label69.Name = "Label69"
-        Me.Label69.Size = New System.Drawing.Size(12, 17)
-        Me.Label69.TabIndex = 76
-        Me.Label69.Text = ":"
-        '
-        'Label70
-        '
-        Me.Label70.AutoSize = True
-        Me.Label70.Location = New System.Drawing.Point(652, 18)
-        Me.Label70.Name = "Label70"
-        Me.Label70.Size = New System.Drawing.Size(12, 17)
-        Me.Label70.TabIndex = 77
-        Me.Label70.Text = ":"
-        '
-        'ICTB
-        '
-        Me.ICTB.Location = New System.Drawing.Point(158, 15)
-        Me.ICTB.Name = "ICTB"
-        Me.ICTB.Size = New System.Drawing.Size(320, 22)
-        Me.ICTB.TabIndex = 78
-        '
-        'PassportTB
-        '
-        Me.PassportTB.Location = New System.Drawing.Point(158, 47)
-        Me.PassportTB.Name = "PassportTB"
-        Me.PassportTB.Size = New System.Drawing.Size(320, 22)
-        Me.PassportTB.TabIndex = 79
-        '
-        'DrivingLicenseTB
-        '
-        Me.DrivingLicenseTB.Location = New System.Drawing.Point(670, 15)
-        Me.DrivingLicenseTB.Name = "DrivingLicenseTB"
-        Me.DrivingLicenseTB.Size = New System.Drawing.Size(298, 22)
-        Me.DrivingLicenseTB.TabIndex = 80
-        '
-        'Label71
-        '
-        Me.Label71.AutoSize = True
-        Me.Label71.Location = New System.Drawing.Point(23, 12)
-        Me.Label71.Name = "Label71"
-        Me.Label71.Size = New System.Drawing.Size(67, 17)
-        Me.Label71.TabIndex = 0
-        Me.Label71.Text = "Company"
-        '
-        'Label72
-        '
-        Me.Label72.AutoSize = True
-        Me.Label72.Location = New System.Drawing.Point(457, 12)
-        Me.Label72.Name = "Label72"
-        Me.Label72.Size = New System.Drawing.Size(58, 17)
-        Me.Label72.TabIndex = 1
-        Me.Label72.Text = "Position"
-        '
-        'Label73
-        '
-        Me.Label73.AutoSize = True
-        Me.Label73.Location = New System.Drawing.Point(827, 12)
-        Me.Label73.Name = "Label73"
-        Me.Label73.Size = New System.Drawing.Size(96, 17)
-        Me.Label73.TabIndex = 2
-        Me.Label73.Text = "Inclusive Date"
-        '
-        'Company1TB
-        '
-        Me.Company1TB.Location = New System.Drawing.Point(26, 32)
-        Me.Company1TB.Name = "Company1TB"
-        Me.Company1TB.Size = New System.Drawing.Size(428, 22)
-        Me.Company1TB.TabIndex = 3
-        '
-        'Position1TB
-        '
-        Me.Position1TB.Location = New System.Drawing.Point(460, 32)
-        Me.Position1TB.Name = "Position1TB"
-        Me.Position1TB.Size = New System.Drawing.Size(364, 22)
-        Me.Position1TB.TabIndex = 4
-        '
-        'InclusiveDate1TB
-        '
-        Me.InclusiveDate1TB.Location = New System.Drawing.Point(830, 32)
-        Me.InclusiveDate1TB.Name = "InclusiveDate1TB"
-        Me.InclusiveDate1TB.Size = New System.Drawing.Size(149, 22)
-        Me.InclusiveDate1TB.TabIndex = 5
-        '
-        'Company2TB
-        '
-        Me.Company2TB.Location = New System.Drawing.Point(26, 60)
-        Me.Company2TB.Name = "Company2TB"
-        Me.Company2TB.Size = New System.Drawing.Size(428, 22)
-        Me.Company2TB.TabIndex = 6
-        '
-        'Company3TB
-        '
-        Me.Company3TB.Location = New System.Drawing.Point(26, 88)
-        Me.Company3TB.Name = "Company3TB"
-        Me.Company3TB.Size = New System.Drawing.Size(428, 22)
-        Me.Company3TB.TabIndex = 7
-        '
-        'Position2TB
-        '
-        Me.Position2TB.Location = New System.Drawing.Point(460, 60)
-        Me.Position2TB.Name = "Position2TB"
-        Me.Position2TB.Size = New System.Drawing.Size(364, 22)
-        Me.Position2TB.TabIndex = 8
-        '
-        'Position3TB
-        '
-        Me.Position3TB.Location = New System.Drawing.Point(460, 88)
-        Me.Position3TB.Name = "Position3TB"
-        Me.Position3TB.Size = New System.Drawing.Size(364, 22)
-        Me.Position3TB.TabIndex = 9
-        '
-        'InclusiveDate2TB
-        '
-        Me.InclusiveDate2TB.Location = New System.Drawing.Point(830, 60)
-        Me.InclusiveDate2TB.Name = "InclusiveDate2TB"
-        Me.InclusiveDate2TB.Size = New System.Drawing.Size(149, 22)
-        Me.InclusiveDate2TB.TabIndex = 10
-        '
-        'InclusiveDate3TB
-        '
-        Me.InclusiveDate3TB.Location = New System.Drawing.Point(830, 88)
-        Me.InclusiveDate3TB.Name = "InclusiveDate3TB"
-        Me.InclusiveDate3TB.Size = New System.Drawing.Size(149, 22)
-        Me.InclusiveDate3TB.TabIndex = 11
-        '
         'SaveBtn
         '
         Me.SaveBtn.Location = New System.Drawing.Point(855, 812)
@@ -1292,6 +1302,75 @@ Partial Class newemployee
         Me.SaveBtn.TabIndex = 2
         Me.SaveBtn.Text = "Save"
         Me.SaveBtn.UseVisualStyleBackColor = True
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.rbdep4)
+        Me.GroupBox2.Controls.Add(Me.rbdep3)
+        Me.GroupBox2.Controls.Add(Me.rbdep2)
+        Me.GroupBox2.Controls.Add(Me.rbdep1)
+        Me.GroupBox2.Controls.Add(Me.rbdep0)
+        Me.GroupBox2.Location = New System.Drawing.Point(557, 444)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(453, 66)
+        Me.GroupBox2.TabIndex = 75
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Number of Qualified Dependents"
+        '
+        'rbdep0
+        '
+        Me.rbdep0.AutoSize = True
+        Me.rbdep0.Location = New System.Drawing.Point(11, 38)
+        Me.rbdep0.Name = "rbdep0"
+        Me.rbdep0.Size = New System.Drawing.Size(37, 21)
+        Me.rbdep0.TabIndex = 0
+        Me.rbdep0.TabStop = True
+        Me.rbdep0.Text = "0"
+        Me.rbdep0.UseVisualStyleBackColor = True
+        '
+        'rbdep1
+        '
+        Me.rbdep1.AutoSize = True
+        Me.rbdep1.Location = New System.Drawing.Point(87, 38)
+        Me.rbdep1.Name = "rbdep1"
+        Me.rbdep1.Size = New System.Drawing.Size(37, 21)
+        Me.rbdep1.TabIndex = 1
+        Me.rbdep1.TabStop = True
+        Me.rbdep1.Text = "1"
+        Me.rbdep1.UseVisualStyleBackColor = True
+        '
+        'rbdep2
+        '
+        Me.rbdep2.AutoSize = True
+        Me.rbdep2.Location = New System.Drawing.Point(160, 38)
+        Me.rbdep2.Name = "rbdep2"
+        Me.rbdep2.Size = New System.Drawing.Size(37, 21)
+        Me.rbdep2.TabIndex = 2
+        Me.rbdep2.TabStop = True
+        Me.rbdep2.Text = "2"
+        Me.rbdep2.UseVisualStyleBackColor = True
+        '
+        'rbdep3
+        '
+        Me.rbdep3.AutoSize = True
+        Me.rbdep3.Location = New System.Drawing.Point(235, 38)
+        Me.rbdep3.Name = "rbdep3"
+        Me.rbdep3.Size = New System.Drawing.Size(37, 21)
+        Me.rbdep3.TabIndex = 3
+        Me.rbdep3.TabStop = True
+        Me.rbdep3.Text = "3"
+        Me.rbdep3.UseVisualStyleBackColor = True
+        '
+        'rbdep4
+        '
+        Me.rbdep4.AutoSize = True
+        Me.rbdep4.Location = New System.Drawing.Point(310, 38)
+        Me.rbdep4.Name = "rbdep4"
+        Me.rbdep4.Size = New System.Drawing.Size(37, 21)
+        Me.rbdep4.TabIndex = 4
+        Me.rbdep4.TabStop = True
+        Me.rbdep4.Text = "4"
+        Me.rbdep4.UseVisualStyleBackColor = True
         '
         'newemployee
         '
@@ -1314,6 +1393,8 @@ Partial Class newemployee
         Me.TabPage2.PerformLayout()
         Me.TabPage3.ResumeLayout(False)
         Me.TabPage3.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1438,4 +1519,10 @@ Partial Class newemployee
     Friend WithEvents Label71 As Label
     Friend WithEvents Label44 As Label
     Friend WithEvents SaveBtn As Button
+    Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents rbdep4 As RadioButton
+    Friend WithEvents rbdep3 As RadioButton
+    Friend WithEvents rbdep2 As RadioButton
+    Friend WithEvents rbdep1 As RadioButton
+    Friend WithEvents rbdep0 As RadioButton
 End Class
