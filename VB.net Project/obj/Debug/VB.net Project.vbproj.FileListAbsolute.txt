@@ -1,0 +1,37 @@
+D:\Visual Studio Project\VB.net Project\obj\Debug\VB.net Project.vbproj.AssemblyReference.cache
+D:\Visual Studio Project\VB.net Project\obj\Debug\VB.net Project.exe.config
+D:\Visual Studio Project\VB.net Project\obj\Debug\VB.net_Project.employee.resources
+D:\Visual Studio Project\VB.net Project\obj\Debug\VB.net_Project.Form1.resources
+D:\Visual Studio Project\VB.net Project\obj\Debug\VB.net_Project.Resources.resources
+D:\Visual Studio Project\VB.net Project\obj\Debug\VB.net_Project.newemployee.resources
+D:\Visual Studio Project\VB.net Project\obj\Debug\VB.net_Project.payroll.resources
+D:\Visual Studio Project\VB.net Project\obj\Debug\VB.net_Project.Utilities.resources
+D:\Visual Studio Project\VB.net Project\obj\Debug\VB.net Project.vbproj.GenerateResource.cache
+D:\Visual Studio Project\VB.net Project\obj\Debug\VB.net Project.vbproj.CoreCompileInputs.cache
+D:\Visual Studio Project\VB.net Project\bin\Debug\VB.net Project.exe.config
+D:\Visual Studio Project\VB.net Project\bin\Debug\VB.net Project.exe
+D:\Visual Studio Project\VB.net Project\bin\Debug\VB.net Project.pdb
+D:\Visual Studio Project\VB.net Project\bin\Debug\VB.net Project.xml
+D:\Visual Studio Project\VB.net Project\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+D:\Visual Studio Project\VB.net Project\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Visual Studio Project\VB.net Project\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Visual Studio Project\VB.net Project\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Visual Studio Project\VB.net Project\bin\Debug\CrystalDecisions.Shared.dll
+D:\Visual Studio Project\VB.net Project\bin\Debug\CrystalDecisions.VSDesigner.dll
+D:\Visual Studio Project\VB.net Project\bin\Debug\CrystalDecisions.Web.dll
+D:\Visual Studio Project\VB.net Project\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Visual Studio Project\VB.net Project\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Visual Studio Project\VB.net Project\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Visual Studio Project\VB.net Project\bin\Debug\CRVsPackageLib.dll
+D:\Visual Studio Project\VB.net Project\bin\Debug\EnvDTE.dll
+D:\Visual Studio Project\VB.net Project\bin\Debug\VSLangProj.dll
+D:\Visual Studio Project\VB.net Project\bin\Debug\VsWebSite.Interop.dll
+D:\Visual Studio Project\VB.net Project\bin\Debug\EnvDTE80.dll
+D:\Visual Studio Project\VB.net Project\bin\Debug\AxShockwaveFlashObjects.dll
+D:\Visual Studio Project\VB.net Project\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Visual Studio Project\VB.net Project\bin\Debug\stdole.dll
+D:\Visual Studio Project\VB.net Project\bin\Debug\ShockwaveFlashObjects.dll
+D:\Visual Studio Project\VB.net Project\obj\Debug\VB.net Project.exe
+D:\Visual Studio Project\VB.net Project\obj\Debug\VB.net Project.xml
+D:\Visual Studio Project\VB.net Project\obj\Debug\VB.net Project.pdb
+D:\Visual Studio Project\VB.net Project\bin\Debug\enterprisedb.mdb

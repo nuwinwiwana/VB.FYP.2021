@@ -25,6 +25,12 @@ Partial Class newemployee
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.rbdep4 = New System.Windows.Forms.RadioButton()
+        Me.rbdep3 = New System.Windows.Forms.RadioButton()
+        Me.rbdep2 = New System.Windows.Forms.RadioButton()
+        Me.rbdep1 = New System.Windows.Forms.RadioButton()
+        Me.rbdep0 = New System.Windows.Forms.RadioButton()
         Me.Label52 = New System.Windows.Forms.Label()
         Me.Label51 = New System.Windows.Forms.Label()
         Me.Label50 = New System.Windows.Forms.Label()
@@ -142,19 +148,13 @@ Partial Class newemployee
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.SaveBtn = New System.Windows.Forms.Button()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.rbdep0 = New System.Windows.Forms.RadioButton()
-        Me.rbdep1 = New System.Windows.Forms.RadioButton()
-        Me.rbdep2 = New System.Windows.Forms.RadioButton()
-        Me.rbdep3 = New System.Windows.Forms.RadioButton()
-        Me.rbdep4 = New System.Windows.Forms.RadioButton()
         Me.Panel1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
         Me.TabPage3.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
@@ -258,6 +258,75 @@ Partial Class newemployee
         Me.GroupBox1.Size = New System.Drawing.Size(1029, 729)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.rbdep4)
+        Me.GroupBox2.Controls.Add(Me.rbdep3)
+        Me.GroupBox2.Controls.Add(Me.rbdep2)
+        Me.GroupBox2.Controls.Add(Me.rbdep1)
+        Me.GroupBox2.Controls.Add(Me.rbdep0)
+        Me.GroupBox2.Location = New System.Drawing.Point(557, 444)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(453, 66)
+        Me.GroupBox2.TabIndex = 75
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Number of Qualified Dependents"
+        '
+        'rbdep4
+        '
+        Me.rbdep4.AutoSize = True
+        Me.rbdep4.Location = New System.Drawing.Point(310, 38)
+        Me.rbdep4.Name = "rbdep4"
+        Me.rbdep4.Size = New System.Drawing.Size(37, 21)
+        Me.rbdep4.TabIndex = 4
+        Me.rbdep4.TabStop = True
+        Me.rbdep4.Text = "4"
+        Me.rbdep4.UseVisualStyleBackColor = True
+        '
+        'rbdep3
+        '
+        Me.rbdep3.AutoSize = True
+        Me.rbdep3.Location = New System.Drawing.Point(235, 38)
+        Me.rbdep3.Name = "rbdep3"
+        Me.rbdep3.Size = New System.Drawing.Size(37, 21)
+        Me.rbdep3.TabIndex = 3
+        Me.rbdep3.TabStop = True
+        Me.rbdep3.Text = "3"
+        Me.rbdep3.UseVisualStyleBackColor = True
+        '
+        'rbdep2
+        '
+        Me.rbdep2.AutoSize = True
+        Me.rbdep2.Location = New System.Drawing.Point(160, 38)
+        Me.rbdep2.Name = "rbdep2"
+        Me.rbdep2.Size = New System.Drawing.Size(37, 21)
+        Me.rbdep2.TabIndex = 2
+        Me.rbdep2.TabStop = True
+        Me.rbdep2.Text = "2"
+        Me.rbdep2.UseVisualStyleBackColor = True
+        '
+        'rbdep1
+        '
+        Me.rbdep1.AutoSize = True
+        Me.rbdep1.Location = New System.Drawing.Point(87, 38)
+        Me.rbdep1.Name = "rbdep1"
+        Me.rbdep1.Size = New System.Drawing.Size(37, 21)
+        Me.rbdep1.TabIndex = 1
+        Me.rbdep1.TabStop = True
+        Me.rbdep1.Text = "1"
+        Me.rbdep1.UseVisualStyleBackColor = True
+        '
+        'rbdep0
+        '
+        Me.rbdep0.AutoSize = True
+        Me.rbdep0.Location = New System.Drawing.Point(11, 38)
+        Me.rbdep0.Name = "rbdep0"
+        Me.rbdep0.Size = New System.Drawing.Size(37, 21)
+        Me.rbdep0.TabIndex = 0
+        Me.rbdep0.TabStop = True
+        Me.rbdep0.Text = "0"
+        Me.rbdep0.UseVisualStyleBackColor = True
         '
         'Label52
         '
@@ -1303,75 +1372,6 @@ Partial Class newemployee
         Me.SaveBtn.Text = "Save"
         Me.SaveBtn.UseVisualStyleBackColor = True
         '
-        'GroupBox2
-        '
-        Me.GroupBox2.Controls.Add(Me.rbdep4)
-        Me.GroupBox2.Controls.Add(Me.rbdep3)
-        Me.GroupBox2.Controls.Add(Me.rbdep2)
-        Me.GroupBox2.Controls.Add(Me.rbdep1)
-        Me.GroupBox2.Controls.Add(Me.rbdep0)
-        Me.GroupBox2.Location = New System.Drawing.Point(557, 444)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(453, 66)
-        Me.GroupBox2.TabIndex = 75
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Number of Qualified Dependents"
-        '
-        'rbdep0
-        '
-        Me.rbdep0.AutoSize = True
-        Me.rbdep0.Location = New System.Drawing.Point(11, 38)
-        Me.rbdep0.Name = "rbdep0"
-        Me.rbdep0.Size = New System.Drawing.Size(37, 21)
-        Me.rbdep0.TabIndex = 0
-        Me.rbdep0.TabStop = True
-        Me.rbdep0.Text = "0"
-        Me.rbdep0.UseVisualStyleBackColor = True
-        '
-        'rbdep1
-        '
-        Me.rbdep1.AutoSize = True
-        Me.rbdep1.Location = New System.Drawing.Point(87, 38)
-        Me.rbdep1.Name = "rbdep1"
-        Me.rbdep1.Size = New System.Drawing.Size(37, 21)
-        Me.rbdep1.TabIndex = 1
-        Me.rbdep1.TabStop = True
-        Me.rbdep1.Text = "1"
-        Me.rbdep1.UseVisualStyleBackColor = True
-        '
-        'rbdep2
-        '
-        Me.rbdep2.AutoSize = True
-        Me.rbdep2.Location = New System.Drawing.Point(160, 38)
-        Me.rbdep2.Name = "rbdep2"
-        Me.rbdep2.Size = New System.Drawing.Size(37, 21)
-        Me.rbdep2.TabIndex = 2
-        Me.rbdep2.TabStop = True
-        Me.rbdep2.Text = "2"
-        Me.rbdep2.UseVisualStyleBackColor = True
-        '
-        'rbdep3
-        '
-        Me.rbdep3.AutoSize = True
-        Me.rbdep3.Location = New System.Drawing.Point(235, 38)
-        Me.rbdep3.Name = "rbdep3"
-        Me.rbdep3.Size = New System.Drawing.Size(37, 21)
-        Me.rbdep3.TabIndex = 3
-        Me.rbdep3.TabStop = True
-        Me.rbdep3.Text = "3"
-        Me.rbdep3.UseVisualStyleBackColor = True
-        '
-        'rbdep4
-        '
-        Me.rbdep4.AutoSize = True
-        Me.rbdep4.Location = New System.Drawing.Point(310, 38)
-        Me.rbdep4.Name = "rbdep4"
-        Me.rbdep4.Size = New System.Drawing.Size(37, 21)
-        Me.rbdep4.TabIndex = 4
-        Me.rbdep4.TabStop = True
-        Me.rbdep4.Text = "4"
-        Me.rbdep4.UseVisualStyleBackColor = True
-        '
         'newemployee
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -1386,6 +1386,8 @@ Partial Class newemployee
         Me.Panel1.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
@@ -1393,8 +1395,6 @@ Partial Class newemployee
         Me.TabPage2.PerformLayout()
         Me.TabPage3.ResumeLayout(False)
         Me.TabPage3.PerformLayout()
-        Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub

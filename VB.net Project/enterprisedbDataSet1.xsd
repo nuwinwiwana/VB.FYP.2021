@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="enterprisedbDataSet1" targetNamespace="http://tempuri.org/enterprisedbDataSet1.xsd" xmlns:mstns="http://tempuri.org/enterprisedbDataSet1.xsd" xmlns="http://tempuri.org/enterprisedbDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="enterprisedb" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="enterprisedb (MySettings)" PropertyReference="ApplicationSettings.VB.net_Project.My.MySettings.GlobalReference.Default.enterprisedb" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tblemployeeTableAdapter" GeneratorDataComponentClassName="tblemployeeTableAdapter" Name="tblemployee" UserDataComponentName="tblemployeeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="enterprisedb (MySettings)" DbObjectName="tblemployee" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT EMPID, FULLNAME, GENDER, HIREDDATE FROM tblemployee</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="EMPID" DataSetColumn="EMPID" />
+              <Mapping SourceColumn="FULLNAME" DataSetColumn="FULLNAME" />
+              <Mapping SourceColumn="GENDER" DataSetColumn="GENDER" />
+              <Mapping SourceColumn="HIREDDATE" DataSetColumn="HIREDDATE" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="enterprisedbDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="enterprisedbDataSet1" msprop:Generator_UserDSName="enterprisedbDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblemployee" msprop:Generator_TableClassName="tblemployeeDataTable" msprop:Generator_TableVarName="tabletblemployee" msprop:Generator_TablePropName="tblemployee" msprop:Generator_RowDeletingName="tblemployeeRowDeleting" msprop:Generator_RowChangingName="tblemployeeRowChanging" msprop:Generator_RowEvHandlerName="tblemployeeRowChangeEventHandler" msprop:Generator_RowDeletedName="tblemployeeRowDeleted" msprop:Generator_UserTableName="tblemployee" msprop:Generator_RowChangedName="tblemployeeRowChanged" msprop:Generator_RowEvArgName="tblemployeeRowChangeEvent" msprop:Generator_RowClassName="tblemployeeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EMPID" msprop:Generator_ColumnVarNameInTable="columnEMPID" msprop:Generator_ColumnPropNameInRow="EMPID" msprop:Generator_ColumnPropNameInTable="EMPIDColumn" msprop:Generator_UserColumnName="EMPID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FULLNAME" msprop:Generator_ColumnVarNameInTable="columnFULLNAME" msprop:Generator_ColumnPropNameInRow="FULLNAME" msprop:Generator_ColumnPropNameInTable="FULLNAMEColumn" msprop:Generator_UserColumnName="FULLNAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GENDER" msprop:Generator_ColumnVarNameInTable="columnGENDER" msprop:Generator_ColumnPropNameInRow="GENDER" msprop:Generator_ColumnPropNameInTable="GENDERColumn" msprop:Generator_UserColumnName="GENDER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HIREDDATE" msprop:Generator_ColumnVarNameInTable="columnHIREDDATE" msprop:Generator_ColumnPropNameInRow="HIREDDATE" msprop:Generator_ColumnPropNameInTable="HIREDDATEColumn" msprop:Generator_UserColumnName="HIREDDATE" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

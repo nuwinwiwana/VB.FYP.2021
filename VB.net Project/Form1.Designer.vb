@@ -23,10 +23,10 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.EmployeeBtn = New System.Windows.Forms.Button()
-        Me.PayrollBtn = New System.Windows.Forms.Button()
-        Me.ReportBtn = New System.Windows.Forms.Button()
         Me.SettingBtn = New System.Windows.Forms.Button()
+        Me.ReportBtn = New System.Windows.Forms.Button()
+        Me.PayrollBtn = New System.Windows.Forms.Button()
+        Me.EmployeeBtn = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -42,23 +42,14 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(157, 612)
         Me.Panel1.TabIndex = 0
         '
-        'EmployeeBtn
+        'SettingBtn
         '
-        Me.EmployeeBtn.Location = New System.Drawing.Point(13, 19)
-        Me.EmployeeBtn.Name = "EmployeeBtn"
-        Me.EmployeeBtn.Size = New System.Drawing.Size(128, 50)
-        Me.EmployeeBtn.TabIndex = 0
-        Me.EmployeeBtn.Text = "Employee"
-        Me.EmployeeBtn.UseVisualStyleBackColor = True
-        '
-        'PayrollBtn
-        '
-        Me.PayrollBtn.Location = New System.Drawing.Point(13, 96)
-        Me.PayrollBtn.Name = "PayrollBtn"
-        Me.PayrollBtn.Size = New System.Drawing.Size(128, 50)
-        Me.PayrollBtn.TabIndex = 1
-        Me.PayrollBtn.Text = "Payroll"
-        Me.PayrollBtn.UseVisualStyleBackColor = True
+        Me.SettingBtn.Location = New System.Drawing.Point(13, 257)
+        Me.SettingBtn.Name = "SettingBtn"
+        Me.SettingBtn.Size = New System.Drawing.Size(128, 50)
+        Me.SettingBtn.TabIndex = 3
+        Me.SettingBtn.Text = "Setting"
+        Me.SettingBtn.UseVisualStyleBackColor = True
         '
         'ReportBtn
         '
@@ -69,14 +60,23 @@ Partial Class Form1
         Me.ReportBtn.Text = "Report"
         Me.ReportBtn.UseVisualStyleBackColor = True
         '
-        'SettingBtn
+        'PayrollBtn
         '
-        Me.SettingBtn.Location = New System.Drawing.Point(13, 257)
-        Me.SettingBtn.Name = "SettingBtn"
-        Me.SettingBtn.Size = New System.Drawing.Size(128, 50)
-        Me.SettingBtn.TabIndex = 3
-        Me.SettingBtn.Text = "Setting"
-        Me.SettingBtn.UseVisualStyleBackColor = True
+        Me.PayrollBtn.Location = New System.Drawing.Point(13, 96)
+        Me.PayrollBtn.Name = "PayrollBtn"
+        Me.PayrollBtn.Size = New System.Drawing.Size(128, 50)
+        Me.PayrollBtn.TabIndex = 1
+        Me.PayrollBtn.Text = "Payroll"
+        Me.PayrollBtn.UseVisualStyleBackColor = True
+        '
+        'EmployeeBtn
+        '
+        Me.EmployeeBtn.Location = New System.Drawing.Point(13, 19)
+        Me.EmployeeBtn.Name = "EmployeeBtn"
+        Me.EmployeeBtn.Size = New System.Drawing.Size(128, 50)
+        Me.EmployeeBtn.TabIndex = 0
+        Me.EmployeeBtn.Text = "Employee"
+        Me.EmployeeBtn.UseVisualStyleBackColor = True
         '
         'Form1
         '

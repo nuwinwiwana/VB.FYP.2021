@@ -30,8 +30,8 @@ Partial Class employee
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.DeavtivateBtn = New System.Windows.Forms.Button()
         Me.NewEmployeeBtn = New System.Windows.Forms.Button()
-        Me.OnDutyLabel = New System.Windows.Forms.GroupBox()
-        Me.Label11 = New System.Windows.Forms.Label()
+        Me.GroupBox = New System.Windows.Forms.GroupBox()
+        Me.OnDutyLabel = New System.Windows.Forms.Label()
         Me.InactiveLabel = New System.Windows.Forms.Label()
         Me.ActiveLabel = New System.Windows.Forms.Label()
         Me.TotalEmployeeLabel = New System.Windows.Forms.Label()
@@ -45,13 +45,31 @@ Partial Class employee
         Me.Label1 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label9 = New System.Windows.Forms.Label()
+        Me.lblEMployeeID = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.TXTSEARCH = New System.Windows.Forms.TextBox()
+        Me.EnterprisedbDataSet1 = New VB.net_Project.enterprisedbDataSet1()
+        Me.TblemployeeBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.TblemployeeTableAdapter = New VB.net_Project.enterprisedbDataSet1TableAdapters.tblemployeeTableAdapter()
+        Me.EMPIDDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.FULLNAMEDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.GENDERDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.HIREDDATEDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
-        Me.OnDutyLabel.SuspendLayout()
+        Me.GroupBox.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
+        CType(Me.EnterprisedbDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TblemployeeBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -115,37 +133,37 @@ Partial Class employee
         Me.NewEmployeeBtn.Text = "Add New Employee"
         Me.NewEmployeeBtn.UseVisualStyleBackColor = True
         '
+        'GroupBox
+        '
+        Me.GroupBox.Controls.Add(Me.OnDutyLabel)
+        Me.GroupBox.Controls.Add(Me.InactiveLabel)
+        Me.GroupBox.Controls.Add(Me.ActiveLabel)
+        Me.GroupBox.Controls.Add(Me.TotalEmployeeLabel)
+        Me.GroupBox.Controls.Add(Me.Label8)
+        Me.GroupBox.Controls.Add(Me.Label7)
+        Me.GroupBox.Controls.Add(Me.Label6)
+        Me.GroupBox.Controls.Add(Me.Label5)
+        Me.GroupBox.Controls.Add(Me.Label4)
+        Me.GroupBox.Controls.Add(Me.Label3)
+        Me.GroupBox.Controls.Add(Me.Label2)
+        Me.GroupBox.Controls.Add(Me.Label1)
+        Me.GroupBox.Location = New System.Drawing.Point(13, 356)
+        Me.GroupBox.Name = "GroupBox"
+        Me.GroupBox.Size = New System.Drawing.Size(337, 262)
+        Me.GroupBox.TabIndex = 2
+        Me.GroupBox.TabStop = False
+        Me.GroupBox.Text = "Employee Details"
+        '
         'OnDutyLabel
         '
-        Me.OnDutyLabel.Controls.Add(Me.Label11)
-        Me.OnDutyLabel.Controls.Add(Me.InactiveLabel)
-        Me.OnDutyLabel.Controls.Add(Me.ActiveLabel)
-        Me.OnDutyLabel.Controls.Add(Me.TotalEmployeeLabel)
-        Me.OnDutyLabel.Controls.Add(Me.Label8)
-        Me.OnDutyLabel.Controls.Add(Me.Label7)
-        Me.OnDutyLabel.Controls.Add(Me.Label6)
-        Me.OnDutyLabel.Controls.Add(Me.Label5)
-        Me.OnDutyLabel.Controls.Add(Me.Label4)
-        Me.OnDutyLabel.Controls.Add(Me.Label3)
-        Me.OnDutyLabel.Controls.Add(Me.Label2)
-        Me.OnDutyLabel.Controls.Add(Me.Label1)
-        Me.OnDutyLabel.Location = New System.Drawing.Point(13, 356)
+        Me.OnDutyLabel.AutoSize = True
+        Me.OnDutyLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OnDutyLabel.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.OnDutyLabel.Location = New System.Drawing.Point(256, 176)
         Me.OnDutyLabel.Name = "OnDutyLabel"
-        Me.OnDutyLabel.Size = New System.Drawing.Size(337, 262)
-        Me.OnDutyLabel.TabIndex = 2
-        Me.OnDutyLabel.TabStop = False
-        Me.OnDutyLabel.Text = "Employee Details"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label11.Location = New System.Drawing.Point(256, 176)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(23, 25)
-        Me.Label11.TabIndex = 11
-        Me.Label11.Text = "0"
+        Me.OnDutyLabel.Size = New System.Drawing.Size(23, 25)
+        Me.OnDutyLabel.TabIndex = 11
+        Me.OnDutyLabel.Text = "0"
         '
         'InactiveLabel
         '
@@ -270,20 +288,71 @@ Partial Class employee
         '
         'DataGridView1
         '
+        Me.DataGridView1.AutoGenerateColumns = False
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(356, 148)
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.EMPIDDataGridViewTextBoxColumn, Me.FULLNAMEDataGridViewTextBoxColumn, Me.GENDERDataGridViewTextBoxColumn, Me.HIREDDATEDataGridViewTextBoxColumn})
+        Me.DataGridView1.DataSource = Me.TblemployeeBindingSource
+        Me.DataGridView1.Location = New System.Drawing.Point(356, 164)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(778, 470)
+        Me.DataGridView1.Size = New System.Drawing.Size(778, 454)
         Me.DataGridView1.TabIndex = 3
         '
         'Panel1
         '
-        Me.Panel1.Location = New System.Drawing.Point(356, 106)
+        Me.Panel1.Controls.Add(Me.Label11)
+        Me.Panel1.Controls.Add(Me.Label10)
+        Me.Panel1.Controls.Add(Me.Label15)
+        Me.Panel1.Controls.Add(Me.Label17)
+        Me.Panel1.Location = New System.Drawing.Point(357, 122)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(778, 36)
         Me.Panel1.TabIndex = 4
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label11.Location = New System.Drawing.Point(316, 22)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(56, 17)
+        Me.Label11.TabIndex = 15
+        Me.Label11.Text = "Gender"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label10.Location = New System.Drawing.Point(430, 22)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(76, 17)
+        Me.Label10.TabIndex = 12
+        Me.Label10.Text = "Date Hired"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label15.Location = New System.Drawing.Point(55, 19)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(87, 17)
+        Me.Label15.TabIndex = 13
+        Me.Label15.Text = "Employee ID"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label17.Location = New System.Drawing.Point(183, 19)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(65, 17)
+        Me.Label17.TabIndex = 14
+        Me.Label17.Text = "Fullname"
         '
         'Panel2
         '
@@ -304,15 +373,106 @@ Partial Class employee
         Me.Label9.TabIndex = 1
         Me.Label9.Text = "Employee Information"
         '
+        'lblEMployeeID
+        '
+        Me.lblEMployeeID.AutoSize = True
+        Me.lblEMployeeID.Location = New System.Drawing.Point(673, 97)
+        Me.lblEMployeeID.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblEMployeeID.Name = "lblEMployeeID"
+        Me.lblEMployeeID.Size = New System.Drawing.Size(83, 17)
+        Me.lblEMployeeID.TabIndex = 19
+        Me.lblEMployeeID.Text = "EMployeeID"
+        Me.lblEMployeeID.Visible = False
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.ForeColor = System.Drawing.Color.Red
+        Me.Label13.Location = New System.Drawing.Point(466, 73)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(75, 17)
+        Me.Label13.TabIndex = 18
+        Me.Label13.Text = "(Fullname)"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(357, 67)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(94, 25)
+        Me.Label14.TabIndex = 17
+        Me.Label14.Text = "Search :"
+        '
+        'TXTSEARCH
+        '
+        Me.TXTSEARCH.Location = New System.Drawing.Point(358, 93)
+        Me.TXTSEARCH.Margin = New System.Windows.Forms.Padding(4)
+        Me.TXTSEARCH.Name = "TXTSEARCH"
+        Me.TXTSEARCH.Size = New System.Drawing.Size(305, 22)
+        Me.TXTSEARCH.TabIndex = 16
+        '
+        'EnterprisedbDataSet1
+        '
+        Me.EnterprisedbDataSet1.DataSetName = "enterprisedbDataSet1"
+        Me.EnterprisedbDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'TblemployeeBindingSource
+        '
+        Me.TblemployeeBindingSource.DataMember = "tblemployee"
+        Me.TblemployeeBindingSource.DataSource = Me.EnterprisedbDataSet1
+        '
+        'TblemployeeTableAdapter
+        '
+        Me.TblemployeeTableAdapter.ClearBeforeFill = True
+        '
+        'EMPIDDataGridViewTextBoxColumn
+        '
+        Me.EMPIDDataGridViewTextBoxColumn.DataPropertyName = "EMPID"
+        Me.EMPIDDataGridViewTextBoxColumn.HeaderText = "EMPID"
+        Me.EMPIDDataGridViewTextBoxColumn.MinimumWidth = 6
+        Me.EMPIDDataGridViewTextBoxColumn.Name = "EMPIDDataGridViewTextBoxColumn"
+        Me.EMPIDDataGridViewTextBoxColumn.Width = 125
+        '
+        'FULLNAMEDataGridViewTextBoxColumn
+        '
+        Me.FULLNAMEDataGridViewTextBoxColumn.DataPropertyName = "FULLNAME"
+        Me.FULLNAMEDataGridViewTextBoxColumn.HeaderText = "FULLNAME"
+        Me.FULLNAMEDataGridViewTextBoxColumn.MinimumWidth = 6
+        Me.FULLNAMEDataGridViewTextBoxColumn.Name = "FULLNAMEDataGridViewTextBoxColumn"
+        Me.FULLNAMEDataGridViewTextBoxColumn.Width = 125
+        '
+        'GENDERDataGridViewTextBoxColumn
+        '
+        Me.GENDERDataGridViewTextBoxColumn.DataPropertyName = "GENDER"
+        Me.GENDERDataGridViewTextBoxColumn.HeaderText = "GENDER"
+        Me.GENDERDataGridViewTextBoxColumn.MinimumWidth = 6
+        Me.GENDERDataGridViewTextBoxColumn.Name = "GENDERDataGridViewTextBoxColumn"
+        Me.GENDERDataGridViewTextBoxColumn.Width = 125
+        '
+        'HIREDDATEDataGridViewTextBoxColumn
+        '
+        Me.HIREDDATEDataGridViewTextBoxColumn.DataPropertyName = "HIREDDATE"
+        Me.HIREDDATEDataGridViewTextBoxColumn.HeaderText = "HIREDDATE"
+        Me.HIREDDATEDataGridViewTextBoxColumn.MinimumWidth = 6
+        Me.HIREDDATEDataGridViewTextBoxColumn.Name = "HIREDDATEDataGridViewTextBoxColumn"
+        Me.HIREDDATEDataGridViewTextBoxColumn.Width = 125
+        '
         'employee
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1146, 630)
+        Me.Controls.Add(Me.lblEMployeeID)
+        Me.Controls.Add(Me.Label13)
+        Me.Controls.Add(Me.Label14)
+        Me.Controls.Add(Me.TXTSEARCH)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.DataGridView1)
-        Me.Controls.Add(Me.OnDutyLabel)
+        Me.Controls.Add(Me.GroupBox)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "employee"
@@ -320,12 +480,17 @@ Partial Class employee
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
-        Me.OnDutyLabel.ResumeLayout(False)
-        Me.OnDutyLabel.PerformLayout()
+        Me.GroupBox.ResumeLayout(False)
+        Me.GroupBox.PerformLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        CType(Me.EnterprisedbDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TblemployeeBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -336,8 +501,8 @@ Partial Class employee
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents DeavtivateBtn As Button
     Friend WithEvents NewEmployeeBtn As Button
-    Friend WithEvents OnDutyLabel As GroupBox
-    Friend WithEvents Label11 As Label
+    Friend WithEvents GroupBox As GroupBox
+    Friend WithEvents OnDutyLabel As Label
     Friend WithEvents InactiveLabel As Label
     Friend WithEvents ActiveLabel As Label
     Friend WithEvents TotalEmployeeLabel As Label
@@ -353,4 +518,19 @@ Partial Class employee
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Label9 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Label17 As Label
+    Friend WithEvents lblEMployeeID As Label
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label14 As Label
+    Friend WithEvents TXTSEARCH As TextBox
+    Friend WithEvents Label11 As Label
+    Friend WithEvents EnterprisedbDataSet1 As enterprisedbDataSet1
+    Friend WithEvents TblemployeeBindingSource As BindingSource
+    Friend WithEvents TblemployeeTableAdapter As enterprisedbDataSet1TableAdapters.tblemployeeTableAdapter
+    Friend WithEvents EMPIDDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents FULLNAMEDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents GENDERDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents HIREDDATEDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
 End Class
