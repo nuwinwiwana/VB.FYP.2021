@@ -34,12 +34,13 @@ Partial Class MainForm
         Me.btnmStudent = New System.Windows.Forms.ToolStripButton()
         Me.btntrans = New System.Windows.Forms.ToolStripButton()
         Me.btnuser = New System.Windows.Forms.ToolStripButton()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.ToolStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'ToolStrip1
         '
-        Me.ToolStrip1.BackColor = System.Drawing.Color.Transparent
+        Me.ToolStrip1.BackColor = System.Drawing.Color.SteelBlue
         Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.btnlogin, Me.btnstudent, Me.btnlis, Me.btnsubject, Me.btnmStudent, Me.btntrans, Me.btnuser})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
@@ -50,6 +51,7 @@ Partial Class MainForm
         '
         'btnlogin
         '
+        Me.btnlogin.BackColor = System.Drawing.Color.SteelBlue
         Me.btnlogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnlogin.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.txtLogin, Me.txtLogout, Me.ExitToolStripMenuItem})
         Me.btnlogin.Image = CType(resources.GetObject("btnlogin.Image"), System.Drawing.Image)
@@ -63,19 +65,19 @@ Partial Class MainForm
         'txtLogin
         '
         Me.txtLogin.Name = "txtLogin"
-        Me.txtLogin.Size = New System.Drawing.Size(139, 26)
+        Me.txtLogin.Size = New System.Drawing.Size(224, 26)
         Me.txtLogin.Text = "Login"
         '
         'txtLogout
         '
         Me.txtLogout.Name = "txtLogout"
-        Me.txtLogout.Size = New System.Drawing.Size(139, 26)
+        Me.txtLogout.Size = New System.Drawing.Size(224, 26)
         Me.txtLogout.Text = "Logout"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(139, 26)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'btnstudent
@@ -138,6 +140,17 @@ Partial Class MainForm
         Me.btnuser.Text = "User Account"
         Me.btnuser.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.SteelBlue
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(940, 25)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(428, 39)
+        Me.Label1.TabIndex = 6
+        Me.Label1.Text = "Student Enrollment System"
+        '
         'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -145,6 +158,7 @@ Partial Class MainForm
         Me.BackgroundImage = Global.EnrollmentSystem.My.Resources.Resources.utm_photo
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1368, 594)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ToolStrip1)
         Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "MainForm"
@@ -167,5 +181,5 @@ Partial Class MainForm
     Friend WithEvents txtLogin As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents txtLogout As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ExitToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-
+    Friend WithEvents Label1 As Label
 End Class

@@ -43,7 +43,7 @@
     End Sub
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
-        myInsert("INSERT INTO  tbltransaction(Fullname,Subjectfee,Comlabfee,Sportsfee,Libra_fee,Clinicfee,MiscFee,Amounttopay,AmountR,Amount_Change) VALUES ('" & txtsearch.Text & "','" & txtsubfee.Text & "','" & txtcomlabfee.Text & "','" & txtsportsfee.Text & "','" & txtlibraryfee.Text & "','" & txtclinicfee.Text & "','" & txtmfee.Text & "','" & txtamounttopay.Text & "','" & txtamountrec.Text & "','" & txtchange.Text & "' )")
+        myInsert("INSERT INTO tbltransaction(Fullname,Subjectfee,Comlabfee,Sportsfee,Libra_fee,Clinicfee,MiscFee,Amounttopay,AmountR,Amount_Change) VALUES ('" & txtsearch.Text & "','" & txtsubfee.Text & "','" & txtcomlabfee.Text & "','" & txtsportsfee.Text & "','" & txtlibraryfee.Text & "','" & txtclinicfee.Text & "','" & txtmfee.Text & "','" & txtamounttopay.Text & "','" & txtamountrec.Text & "','" & txtchange.Text & "' )")
         Checkresult("add")
     End Sub
 
