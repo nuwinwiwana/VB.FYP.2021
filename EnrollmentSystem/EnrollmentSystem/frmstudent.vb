@@ -48,7 +48,7 @@ Public Class frmstudent
     End Sub
 
     Private Sub DataGridView1_CellClick(ByVal sender As Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles DataGridView1.CellClick
-
+        txtidno.Text = DataGridView1.CurrentRow.Cells("StudID").Value.ToString()
         txtlname.Text = DataGridView1.CurrentRow.Cells("Lastname").Value.ToString()
         txtfname.Text = DataGridView1.CurrentRow.Cells("Firstname").Value.ToString()
         txtmname.Text = DataGridView1.CurrentRow.Cells("MI").Value.ToString()
