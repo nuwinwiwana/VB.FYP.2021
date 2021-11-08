@@ -173,7 +173,7 @@ Module Crud
 
     '            Select Case CaseResult
     '                Case "Login"
-    '                    'If frmlogin.TextBox1.Text = table.Rows(0).Item("User_Username") And frmlogin.TextBox2.Text = table.Rows(0).Item("User_Password") Then
+    '                    If frmlogin.TextBox1.Text = table.Rows(0).Item("User_Username") And frmlogin.TextBox2.Text = table.Rows(0).Item("User_Password") Then
 
     '                    MessageBox.Show("You are now login")
     '                    MainForm.txtLogin.Visible = False
@@ -185,13 +185,13 @@ Module Crud
     '                    MainForm.btntrans.Enabled = True
     '                    MainForm.btnuser.Enabled = True
     '                    MainForm.btnstudent.Enabled = True
-    '                    '  Else
+    '                      Else
     '                    MessageBox.Show("Invalid Username And Password")
-    '                    ' End If
+    '                     End If
 
 
     '                Case "add"
-    '                    ' MessageBox.Show("Data Has Been Added")
+    '                     MessageBox.Show("Data Has Been Added")
     '                    autoor = table.Rows(0).Item(0) + 1
     '                    frmstudent.txtidno.Text = autoor
 
